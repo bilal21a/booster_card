@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,12 +27,12 @@
     <link rel='stylesheet' href='{{ asset('css/fontawesome.min.css') }}' />
     <link rel='stylesheet' href='{{ asset('css/brands.min.css') }}' />
     <link rel='stylesheet' href='{{ asset('css/solid.min.css') }}' />
-    <link rel='stylesheet' href='{{ asset('custom/custom_about.css') }}' />
+    <link rel='stylesheet' href='{{ asset('custom/custom_comon.css') }}' />
     <script src='{{ asset('js_service/shims.min.js') }}'></script>
     <script src='{{ asset('js/jquery.min.js') }}'></script>
     <script src='{{ asset('js/jquery-migrate.min.js') }}'></script>
     <script src='{{ asset('js/template-kit-export-public.min.js') }}'></script>
-    <script src='{{ asset('custom/custom_about.js') }}'></script>
+    <script src='{{ asset('custom/custom_comon.js') }}'></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-F59BZKS3MB"></script>
 </head>
 
