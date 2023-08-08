@@ -68,13 +68,13 @@
             padding: 0 !important;
         }
     </style>
-    <link rel='stylesheet' id='elementor-frontend-css' href='css/custom-frontend-lite.min.css' media='all' />
-    <link rel='stylesheet' id='elementor-post-7-css' href='css/post-7.css' media='all' />
-    <link rel='stylesheet' id='font-awesome-5-all-css' href='css/all.min.css' media='all' />
-    <link rel='stylesheet' id='font-awesome-4-shim-css' href='css/v4-shims.min.css' media='all' />
-    <link rel='stylesheet' id='elementor-post-12-css' href='css/post-12.css' media='all' />
-    <link rel='stylesheet' id='wp-block-library-css' href='css/style.min.css' media='all' />
-    <link rel='stylesheet' id='classic-theme-styles-css' href='css/classic-themes.min.css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='{{asset('css/custom-frontend-lite.min.css')}}' media='all' />
+<link rel='stylesheet' id='elementor-post-7-css' href='{{ asset('css/post-7.css') }}' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css' href='{{ asset('css/all.min.css') }}' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css' href='{{ asset('css/v4-shims.min.css') }}' media='all' />
+<link rel='stylesheet' id='elementor-post-12-css' href='{{ asset('css/post-12.css') }}' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='{{ asset('css/style.min.css') }}' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='{{ asset('css/classic-themes.min.css') }}' media='all' />
     <style id='global-styles-inline-css'>
         body {
             --wp--preset--color--black: #000000;
@@ -413,26 +413,23 @@
             line-height: 1.6;
         }
     </style>
-    <link rel='stylesheet' id='template-kit-export-css' href='css/template-kit-export-public.min.css' media='all' />
-    <link rel='stylesheet' id='hello-elementor-css' href='css/style.min2.css' media='all' />
-    <link rel='stylesheet' id='hello-elementor-theme-style-css' href='css/theme.min.css' media='all' />
-    <link rel='stylesheet' id='elementor-post-5-css' href='css/post-5.css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-ekiticons-css' href='css/ekiticons.css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-css' href='css/elementor-icons.min.css' media='all' />
-    <link rel='stylesheet' id='swiper-css' href='css/swiper.min.css' media='all' />
-    <link rel='stylesheet' id='elementor-post-729-css' href='css/post-729.css' media='all' />
-    <link rel='stylesheet' id='ekit-widget-styles-css' href='css/widget-styles.css' media='all' />
-    <link rel='stylesheet' id='ekit-responsive-css' href='css/responsive.css' media='all' />
+   <link rel="stylesheet" id="template-kit-export-css" href="{{ asset('css/template-kit-export-public.min.css') }}" media="all" />
+   <link rel="stylesheet" id="hello-elementor-css" href="{{ asset('css/style.min2.css') }}" media="all" />
+   <link rel="stylesheet" id="hello-elementor-theme-style-css" href="{{ asset('css/theme.min.css') }}" media="all" />
+   <link rel="stylesheet" id="elementor-post-5-css" href="{{ asset('css/post-5.css') }}" media="all" />
+   <link rel="stylesheet" id="elementor-icons-ekiticons-css" href="{{ asset('css/ekiticons.css') }}" media="all" />
+   <link rel="stylesheet" id="elementor-icons-css" href="{{ asset('css/elementor-icons.min.css') }}" media="all" />
+   <link rel="stylesheet" id="swiper-css" href="{{ asset('css/swiper.min.css') }}" media="all" />
+   <link rel="stylesheet" id="elementor-post-729-css" href="{{ asset('css/post-729.css') }}" media="all" />
+   <link rel="stylesheet" id="ekit-widget-styles-css" href="{{ asset('css/widget-styles.css') }}" media="all" />
+   <link rel="stylesheet" id="ekit-responsive-css" href="{{ asset('css/responsive.css') }}" media="all" />   
     <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Gantari%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.2.2'
         media='all' />
-    <link rel='stylesheet' id='elementor-icons-shared-0-css' href='css/fontawesome.min.css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-fa-brands-css' href='css/brands.min.css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-shared-0-css' href='{{ asset('css/fontawesome.min.css') }}' media='all' />    <link rel='stylesheet' id='elementor-icons-fa-brands-css' href='css/brands.min.css' media='all' />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <script src='js_service/shims.min.js' id='font-awesome-4-shim-js'></script>
-    <script src='js/jquery.min.js' id='jquery-core-js'></script>
-    <script src='js/jquery-migrate.min.js' id='jquery-migrate-js'></script>
-    <script src='js/template-kit-export-public.min.js' id='template-kit-export-js'></script>
-    <link rel="https://api.w.org/" href="https://web.sociolib.com/finext/wp-json/" />
+    <script src='{{ asset('js_service/shims.min.js') }}' id='font-awesome-4-shim-js'></script>
+    <script src='{{ asset('js/jquery.min.js') }}' id='jquery-core-js'></script>    <script src='js/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+    <script src='{{ asset('js/template-kit-export-public.min.js') }}' id='template-kit-export-js'></script>    <link rel="https://api.w.org/" href="https://web.sociolib.com/finext/wp-json/" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://web.sociolib.com/finext/xmlrpc.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://web.sociolib.com/finext/wp-includes/wlwmanifest.xml" />
     <meta name="generator" content="WordPress 6.2.2" />
@@ -1553,19 +1550,19 @@
             </section>
         </div>
     </div>
-    <link rel='stylesheet' id='e-animations-css' href='css/animations.min.css' media='all' />
-    <script src='js/hello-frontend.min.js' id='hello-theme-frontend-js'></script>
-    <script src='js/frontend-script.js' id='elementskit-framework-js-frontend-js'></script>
+    <link rel='stylesheet' id='e-animations-css' href='{{asset('css/animations.min.css')}}' media='all' />
+    <script src='{{asset('js/hello-frontend.min.js')}}' id='hello-theme-frontend-js'></script>
+    <script src='{{ asset('js/frontend-script.js') }}' id='elementskit-framework-js-frontend-js'></script>
     <script id='elementskit-framework-js-frontend-js-after'>
         var elementskit = {
             resturl: 'https://web.sociolib.com/finext/wp-json/elementskit/v1/',
         }
     </script>
-    <script src='js/widget-scripts.js' id='ekit-widget-scripts-js'></script>
-    <script src='js/webpack.runtime.min.js' id='elementor-webpack-runtime-js'></script>
-    <script src='js/frontend-modules.min.js' id='elementor-frontend-modules-js'></script>
-    <script src='js/waypoints.min.js' id='elementor-waypoints-js'></script>
-    <script src='js/core.min.js' id='jquery-ui-core-js'></script>
+    <script src='{{ asset('js/widget-scripts.js') }}' id='ekit-widget-scripts-js'></script>
+    <script src='{{ asset('js/webpack.runtime.min.js') }}' id='elementor-webpack-runtime-js'></script>
+    <script src='{{ asset('js/frontend-modules.min.js') }}' id='elementor-frontend-modules-js'></script>
+    <script src='{{ asset('js/waypoints.min.js') }}' id='elementor-waypoints-js'></script>
+    <script src='{{ asset('js/core.min.js') }}' id='jquery-ui-core-js'></script>
     <script id='elementor-frontend-js-before'>
         var elementorFrontendConfig = {
             "environmentMode": {
@@ -1690,15 +1687,15 @@
             }
         };
     </script>
-<script src='js/frontend.min.js' id='elementor-frontend-js'></script>
-<script src='js/animate-circle.js' id='animate-circle-js'></script>
+<script src='{{ asset('js/frontend.min.js') }}' id='elementor-frontend-js'></script>
+<script src='{{ asset('js/animate-circle.js') }}' id='animate-circle-js'></script>
     <script id='elementskit-elementor-js-extra'>
         var ekit_config = {
             "ajaxurl": "https:\/\/web.sociolib.com\/finext\/wp-admin\/admin-ajax.php",
             "nonce": "7001f2dda3"
         };
     </script>
-    <script src='js/elementor.js' id='elementskit-elementor-js'></script>
+    <script src='{{ asset('js/elementor.js') }}' id='elementskit-elementor-js'></script>
 
 </body>
 
