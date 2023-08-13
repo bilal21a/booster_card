@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('auto_login', [HomeController::class, 'auto_login'])->name('auto_login');
 
 Route::get('/about', function () {
     return view('about');
@@ -28,9 +31,15 @@ Route::get('feature', function () {
 Route::get('finext', function () {
     return view('finext');
 });
-Route::get('pricing', function () {
-    return view('pricing');
-});
+
 Route::get('services', function () {
     return view('services');
+});
+
+Auth::routes();
+Route::middleware(['auth'])->group(function () {
+    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+    Route::get('pricing', function () {
+        return view('pricing');
+    })->name('pricing');
 });
