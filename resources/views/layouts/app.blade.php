@@ -1,83 +1,75 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<!DOCTYPE html>
+<html lang="en-US">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel='stylesheet' href='{{ asset('css/custom-frontend-lite.min.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/post-7.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/all.min.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/v4-shims.min.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/post-12.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/style.min.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/classic-themes.min.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/template-kit-export-public.min.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/style.min2.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/theme.min.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/post-5.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/ekiticons.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/elementor-icons.min.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/swiper.min.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/post-16.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/widget-styles.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/responsive.css') }}' />
+    <link rel='stylesheet'
+        href='https://fonts.googleapis.com/css?family=Gantari%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.2.2' />
+    <link rel='stylesheet' href='{{ asset('css/fontawesome.min.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/brands.min.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/solid.min.css') }}' />
+    <script src='{{ asset('js_service/shims.min.js') }}' id='font-awesome-4-shim-js'></script>
+    <script src='{{ asset('js/jquery.min.js') }}' id='jquery-core-js'></script>
+    <script src='{{ asset('js/jquery-migrate.min.js') }}' id='jquery-migrate-js'></script>
+    <script src='{{ asset('js/template-kit-export-public.min.js') }}' id='template-kit-export-js'></script>
+    <script src='{{ asset('custom/custom_comon.js') }}'></script>
+    @yield('css')
 </head>
-<body>
-    <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-            <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav me-auto">
+<body
+    class="envato_tk_templates-template envato_tk_templates-template-elementor_header_footer single single-envato_tk_templates postid-16 elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-16">
+    @include('layouts.partials.header')
+    @yield('content')
+    @include('layouts.partials.footer')
 
-                    </ul>
 
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ms-auto">
-                        <!-- Authentication Links -->
-                        @guest
-                            @if (Route::has('login'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                                </li>
-                            @endif
 
-                            @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                </li>
-                            @endif
-                        @else
-                            <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }}
-                                </a>
+    <link rel='stylesheet' href='{{ asset('css/odometer-theme-default.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/post-187.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/metform-ui.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/style.css') }}' />
+    <link rel='stylesheet' href='{{ asset('css/animations.min.css') }}' />
+    <script src='{{ asset('js/hello-frontend.min.js') }}'></script>
+    <script src='{{ asset('js/frontend-script.js') }}'></script>
+    <script src="{{ asset('js/widget-scripts.js') }}"></script>
+    <script src="{{ asset('js/waypoints.min.js') }}"></script>
+    <script src="{{ asset('js/odometer.min.js') }}"></script>
+    <script src="{{ asset('js/htm.js') }}"></script>
+    <script src="{{ asset('js/wp-polyfill-inert.min.js') }}"></script>
+    <script src="{{ asset('js/regenerator-runtime.min.js') }}"></script>
+    <script src="{{ asset('js/wp-polyfill.min.js') }}"></script>
+    <script src="{{ asset('js/react.min.js') }}"></script>
+    <script src="{{ asset('js/react-dom.min.js') }}"></script>
+    <script src="{{ asset('js/escape-html.min.js') }}"></script>
+    <script src="{{ asset('js/element.min.js') }}"></script>
+    <script src='{{ asset('js/app.js') }}'></script>
+    <script src='{{ asset('js/webpack.runtime.min.js') }}'></script>
+    <script src='{{ asset('js/frontend-modules.min.js') }}'></script>
+    <script src='{{ asset('js/core.min.js') }}'></script>
+    <script src='{{ asset('js/frontend.min.js') }}'></script>
+    <script src='{{ asset('js/animate-circle.js') }}'></script>
+    <script src='{{ asset('js/elementor.js') }}'></script>
 
-                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
-                                    </a>
-
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                        @csrf
-                                    </form>
-                                </div>
-                            </li>
-                        @endguest
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <main class="py-4">
-            @yield('content')
-        </main>
-    </div>
+    @yield('js')
 </body>
+
 </html>
