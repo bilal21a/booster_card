@@ -19,18 +19,16 @@
     <link rel='stylesheet' href='{{ asset('css/ekiticons.css') }}' />
     <link rel='stylesheet' href='{{ asset('css/elementor-icons.min.css') }}' />
     <link rel='stylesheet' href='{{ asset('css/swiper.min.css') }}' />
-    <link rel='stylesheet' href='{{ asset('css/post-16.css') }}' />
     <link rel='stylesheet' href='{{ asset('css/widget-styles.css') }}' />
-    <link rel='stylesheet' href='{{ asset('css/responsive.css') }}' />
     <link rel='stylesheet'
-        href='https://fonts.googleapis.com/css?family=Gantari%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.2.2' />
+	href='https://fonts.googleapis.com/css?family=Gantari%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.2.2' />
     <link rel='stylesheet' href='{{ asset('css/fontawesome.min.css') }}' />
-    <link rel='stylesheet' href='{{ asset('css/brands.min.css') }}' />
-    <link rel='stylesheet' href='{{ asset('css/solid.min.css') }}' />
-    <script src='{{ asset('js_service/shims.min.js') }}' id='font-awesome-4-shim-js'></script>
-    <script src='{{ asset('js/jquery.min.js') }}' id='jquery-core-js'></script>
-    <script src='{{ asset('js/jquery-migrate.min.js') }}' id='jquery-migrate-js'></script>
-    <script src='{{ asset('js/template-kit-export-public.min.js') }}' id='template-kit-export-js'></script>
+    <link rel='stylesheet' href="{{ asset('css/brands.min.css') }}" />
+	<link rel='stylesheet' href='{{ asset('custom/custom_comon.css') }}' />
+    <script src='{{ asset('js_service/shims.min.js') }}'></script>
+    <script src='{{ asset('js/jquery.min.js') }}'></script>
+    <script src="{{ asset('js/jquery-migrate.min.js') }}"></script>
+    <script src='{{ asset('js/template-kit-export-public.min.js') }}'></script>
     <script src='{{ asset('custom/custom_comon.js') }}'></script>
     @yield('css')
 </head>

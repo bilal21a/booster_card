@@ -38,8 +38,8 @@ Route::get('services', function () {
 
 Auth::routes();
 Route::middleware(['auth'])->group(function () {
-    Route::get('pricing', function () {
-        return view('pricing');
-    })->name('pricing');
 });
+Route::get('pricing', function () {
+    return view('pricing');
+})->name('pricing');
 

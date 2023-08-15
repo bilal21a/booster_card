@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('css')
+    <link rel='stylesheet' href='{{ asset('css/post-16.css') }}' />
+@endsection
 
 @section('content')
     <div data-elementor-type="wp-post" data-elementor-id="16" class="elementor elementor-16">
