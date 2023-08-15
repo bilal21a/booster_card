@@ -28,8 +28,8 @@ Route::get('faqs', function () {
 Route::get('feature', function () {
     return view('feature');
 });
-Route::get('finext', function () {
-    return view('finext');
+Route::get('home', function () {
+    return view('home');
 });
 
 Route::get('services', function () {
@@ -38,7 +38,6 @@ Route::get('services', function () {
 
 Auth::routes();
 Route::middleware(['auth'])->group(function () {
-    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
     Route::get('pricing', function () {
         return view('pricing');
     })->name('pricing');
