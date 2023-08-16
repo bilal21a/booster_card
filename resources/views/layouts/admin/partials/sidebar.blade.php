@@ -30,7 +30,8 @@
 
                    <!-- Start::slide -->
                    <li class="slide">
-                       <a href="{{ route('home') }}"
+                       <a href="#"
+                       {{-- <a href="{{ route('home') }}" --}}
                            class="side-menu__item {{ request()->is('home*') ? 'active' : '' }}">
                            <i class="bx bxs-dashboard side-menu__icon"></i>
                            <span class="side-menu__label">Dashboard</span>
@@ -44,7 +45,8 @@
 
                    <!-- Start::slide -->
                    <li class="slide">
-                       <a href="{{ route('customers.index') }}"
+                       <a href="#"
+                       {{-- <a href="{{ route('customers.index') }}" --}}
 
                            class="side-menu__item {{ request()->is('customers*')|| request()->is('vehicles*') || request()->is('drivers*')  ? 'active' : '' }}">
                            <i class="bx bxs-user side-menu__icon"></i>

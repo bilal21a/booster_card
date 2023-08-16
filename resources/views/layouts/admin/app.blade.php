@@ -16,34 +16,34 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('assets/images/brand-logos/favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets_admin/images/brand-logos/favicon.ico') }}" type="image/x-icon">
 
     <!-- Choices JS -->
     <script src="{{ asset('assets/libs/choices.js/public/assets/scripts/choices.min.js') }}"></script>
 
     <!-- Main Theme Js -->
-    <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script src="{{ asset('assets_admin/js/main.js') }}"></script>
 
     <!-- Bootstrap Css -->
-    <link id="style" href="{{ asset('assets/libs/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link id="style" href="{{ asset('assets_admin/libs/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Style Css -->
-    <link href="{{ asset('assets/css/styles.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets_admin/css/styles.min.css') }}" rel="stylesheet">
 
     <!-- Icons Css -->
-    <link href="{{ asset('assets/css/icons.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets_admin/css/icons.css') }}" rel="stylesheet">
 
     <!-- Node Waves Css -->
-    <link href="{{ asset('assets/libs/node-waves/waves.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets_admin/libs/node-waves/waves.min.css') }}" rel="stylesheet">
 
     <!-- Simplebar Css -->
-    <link href="{{ asset('assets/libs/simplebar/simplebar.min.css') }}" rel="stylesheet">
-    <script src="{{ asset('assets/js/simplebar.js') }}"></script>
+    <link href="{{ asset('assets_admin/libs/simplebar/simplebar.min.css') }}" rel="stylesheet">
+    <script src="{{ asset('assets_admin/js/simplebar.js') }}"></script>
 
 
     <!-- Color Picker Css -->
-    <link rel="stylesheet" href="{{ asset('assets/libs/flatpickr/flatpickr.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/libs/@simonwep/pickr/themes/nano.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets_admin/libs/flatpickr/flatpickr.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets_admin/libs/@simonwep/pickr/themes/nano.min.css') }}">
 
     <!-- Choices Css -->
     <link rel="stylesheet" href="{{ asset('assets/libs/choices.js/public/assets/styles/choices.min.css') }}">
@@ -64,12 +64,12 @@
 
 <body>
 
-    @include('layouts.partials.switcher')
+    @include('layouts.admin.partials.switcher')
 
     <div class="page">
-        @include('layouts.partials.header')
+        @include('layouts.admin.partials.header')
 
-        @include('layouts.partials.sidebar')
+        {{-- @include('layouts.admin.partials.sidebar') --}}
 
         <div class="main-content app-content">
             <div class="container-fluid">
@@ -80,8 +80,8 @@
             </div>
         </div>
         @include('common.modal.simple_modal')
-        @include('layouts.partials.searchModal')
-        @include('layouts.partials.footer')
+        @include('layouts.admin.partials.searchModal')
+        @include('layouts.admin.partials.footer')
 
     </div>
 
