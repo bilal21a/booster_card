@@ -1,4 +1,5 @@
 @extends('layouts.admin.app')
+{{-- @dd($request->type); --}}
 
 @section('header')
     Customers Management
@@ -16,12 +17,23 @@
 {{-- @dd('bqwabba'); --}}
 @section('js_after')
     {{-- **Show Data** --}}
-    <script>
-        var tabelDataArray = ['name', 'email', 'src'];
-        var get_data_url = "{{ route('get_users') }}"
+    <script type="text/javascript">
+        $(function () { 
+          var table = $('.data-table').DataTable({
+              processing: true,
+              serverSide: true,
+              ajax: "{{ route('get_users',['type' => $customer]) }}",
+              columns: [
+                  {data: 'name', name: 'name'},
+                  {data: 'email', name: 'email' },
+                  {data: 'src', name: 'src', orderable: false, searchable: false}
+              ]
+          });
+          
+        });
     </script>
-    {{-- @include('common.js.get_data') --}}
+    // {{-- @include('common.js.get_data') --}}
 
 
-    {{-- **Delete Data** --}}
+    // {{-- **Delete Data** --}}
 @endsection

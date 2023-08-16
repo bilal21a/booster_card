@@ -1,13 +1,14 @@
    <!-- Start::app-sidebar -->
+   
    <aside class="app-sidebar sticky" id="sidebar">
 
        <!-- Start::main-sidebar-header -->
        <div class="main-sidebar-header" style="height: unset !important; ">
            <a href="#" class="header-logo">
-               <img src="{{ asset('assets/logo/logo_full_light.png') }}" alt="logo" class="desktop-logo " style="height:48px">
-               <img src="{{ asset('assets/logo/logo_small_light.png') }}" alt="logo" class="toggle-logo ">
-               <img src="{{ asset('assets/logo/logo_full_light.png') }}" alt="logo" class="desktop-dark " style="height:48px">
-               <img src="{{ asset('assets/logo/logo_small_light.png') }}" alt="logo" class="toggle-dark ">
+               <img src="{{ asset('assets_admin/logo/logo_full_light.png') }}" alt="logo" class="desktop-logo " style="height:48px">
+               <img src="{{ asset('assets_admin/logo/logo_small_light.png') }}" alt="logo" class="toggle-logo ">
+               <img src="{{ asset('assets_admin/logo/logo_full_light.png') }}" alt="logo" class="desktop-dark " style="height:48px">
+               <img src="{{ asset('assets_admin/logo/logo_small_light.png') }}" alt="logo" class="toggle-dark ">
            </a>
        </div>
        <!-- End::main-sidebar-header -->
@@ -30,67 +31,33 @@
 
                    <!-- Start::slide -->
                    <li class="slide">
-                       <a href="#"
-                       {{-- <a href="{{ route('home') }}" --}}
+                       {{-- <a href="#" --}}
+                       <a href="{{ route('dashboard') }}"
                            class="side-menu__item {{ request()->is('home*') ? 'active' : '' }}">
                            <i class="bx bxs-dashboard side-menu__icon"></i>
                            <span class="side-menu__label">Dashboard</span>
                        </a>
                    </li>
-                   <!-- End::slide -->
-
-                   <!-- Start::slide__category -->
-                   <li class="slide__category"><span class="category-name">Users</span></li>
-                   <!-- End::slide__category -->
-
-                   <!-- Start::slide -->
-                   <li class="slide">
-                       <a href="#"
-                       {{-- <a href="{{ route('customers.index') }}" --}}
-
-                           class="side-menu__item {{ request()->is('customers*')|| request()->is('vehicles*') || request()->is('drivers*')  ? 'active' : '' }}">
-                           <i class="bx bxs-user side-menu__icon"></i>
-                           <span class="side-menu__label">Customers</span>
-                       </a>
-                   </li>
-
-                   <li class="slide">
-                       <a href="{{ route('serviceprovider.index') }}"
-                           class="side-menu__item {{ request()->is('serviceprovider*') ||  request()->is('fuel_station*') ? 'active' : '' }}">
-                           <i class="bx bxs-user side-menu__icon"></i>
-                           <span class="side-menu__label">Service Providers</span>
-                       </a>
-                   </li>
-
-                   <!-- Start::slide__category -->
-                   <li class="slide__category"><span class="category-name">Vehicles</span></li>
-                   <!-- End::slide__category -->
-
-                   <!-- Start::slide -->
-
-                   <li class="slide">
-                       <a href="{{ route('vehicle_make.index') }}"
-                           class="side-menu__item {{ request()->is('vehicle_make*') ? 'active' : '' }}">
-                           <i class="bx bxs-car side-menu__icon"></i>
-                           <span class="side-menu__label">Vehicle Make</span>
-                       </a>
-                   </li>
-
-                   <li class="slide">
-                       <a href="{{ route('vehicle_modal.index') }}"
-                           class="side-menu__item {{ request()->is('vehicle_modal*') ? 'active' : '' }}">
-                           <i class="bx bxs-car side-menu__icon"></i>
-                           <span class="side-menu__label">Vehicle Models</span>
-                       </a>
-                   </li>
-
-                    <!-- Start::slide__category -->
-                    <li class="slide__category"><span class="category-name">Setting</span></li>
+                    <li class="slide__category"><span class="category-name">Source</span></li>
                     <li class="slide">
-                        <a href="{{ route('logout') }}"
+                        <a href="{{ route('dashboard',['type'=>'udt']) }}"
                             class="side-menu__item">
-                            <i class="bx bxs-exit side-menu__icon"></i>
-                            <span class="side-menu__label">Logout</span>
+                            <i class="bx bxs-user side-menu__icon"></i>
+                            <span class="side-menu__label">Utd Users</span>
+                        </a>
+                    </li>
+                    <li class="slide">
+                        <a href="{{ route('dashboard',['type'=>'booster_card']) }}"
+                            class="side-menu__item">
+                            <i class="bx bxs-user side-menu__icon"></i>
+                            <span class="side-menu__label">Booster Card Users</span>
+                        </a>
+                    </li>
+                    <li class="slide">
+                        <a href="{{ route('dashboard',['type'=>'green_gen']) }}"
+                            class="side-menu__item">
+                            <i class="bx bxs-user side-menu__icon"></i>
+                            <span class="side-menu__label">Green Gen Users</span>
                         </a>
                     </li>
                     <!-- End::slide -->

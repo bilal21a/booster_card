@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>UDT - United Drivers Trust</title>
+    <title>Booster Card</title>
     <meta name="Description" content="Bootstrap Responsive Admin Web Dashboard HTML5 Template">
     <meta name="Author" content="Spruko Technologies Private Limited">
     <meta name="keywords"
@@ -69,7 +69,7 @@
     <div class="page">
         @include('layouts.admin.partials.header')
 
-        {{-- @include('layouts.admin.partials.sidebar') --}}
+        @include('layouts.admin.partials.sidebar')
 
         <div class="main-content app-content">
             <div class="container-fluid">
