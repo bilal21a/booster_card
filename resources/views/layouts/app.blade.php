@@ -30,6 +30,8 @@
     <script src="{{ asset('js/jquery-migrate.min.js') }}"></script>
     <script src='{{ asset('js/template-kit-export-public.min.js') }}'></script>
     <script src='{{ asset('custom/custom_comon.js') }}'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
     @yield('css')
 </head>
 

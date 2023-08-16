@@ -19,23 +19,23 @@ Route::get('auto_login', [HomeController::class, 'auto_login'])->name('auto_logi
 
 Route::get('/about', function () {
     return view('about');
-});
+})->name('about');
 Route::get('contact', function () {
     return view('contact');
-});
+})->name('contact');
 Route::get('faqs', function () {
     return view('faqs');
-});
+})->name('faqs');
 Route::get('feature', function () {
     return view('feature');
-});
+})->name('feature');
 Route::get('home', function () {
     return view('home');
-});
+})->name('home');
 
 Route::get('services', function () {
     return view('services');
-});
+})->name('services');
 
 Auth::routes();
 Route::middleware(['auth'])->group(function () {

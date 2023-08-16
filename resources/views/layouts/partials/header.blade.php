@@ -1,4 +1,5 @@
 @include('layouts.partials.extra_svgs')
+{{-- @dd(request()->routeIs('services')) --}}
 <div class="ekit-template-content-markup ekit-template-content-header ekit-template-content-theme-support">
     <div data-elementor-type="wp-post" data-elementor-id="7" class="elementor elementor-7">
         <section
@@ -17,8 +18,8 @@
                                 <a href="#">
                                     <img width="300" height="108"
                                         src="https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/logo-finext.png"
-                                        class="attachment-full size-full wp-image-96" alt=""
-                                        loading="lazy" /> </a>
+                                        class="attachment-full size-full wp-image-96" alt="" loading="lazy" />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -44,52 +45,56 @@
                                             class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon">
                                             <li id="menu-item-45"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-45 nav-item elementskit-mobile-builder-content active"
-                                                data-vertical-menu=750px><a
-                                                    href="https://web.sociolib.com/finext/template-kit/home/"
-                                                    class="ekit-menu-nav-link active">Home</a></li>
+                                                data-vertical-menu=750px><a href="{{ route('home') }}"
+                                                    class="ekit-menu-nav-link "
+                                                    style="color: {{ request()->routeIs('home') ? '#707070' : '#121212' }};">Home</a>
+                                            </li>
                                             <li id="menu-item-47"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47 nav-item elementskit-mobile-builder-content"
-                                                data-vertical-menu=750px><a
-                                                    href="https://web.sociolib.com/finext/template-kit/services/"
-                                                    class="ekit-menu-nav-link">Services</a></li>
+                                                data-vertical-menu=750px><a href="{{ route('services') }}"
+                                                    class="ekit-menu-nav-link"
+                                                    style="color: {{ request()->routeIs('services') ? '#707070' : '#121212' }};">Services</a>
+                                            </li>
                                             <li id="menu-item-52"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52 nav-item elementskit-mobile-builder-content"
-                                                data-vertical-menu=750px><a
-                                                    href="https://web.sociolib.com/finext/template-kit/features/"
-                                                    class="ekit-menu-nav-link">Features</a></li>
+                                                data-vertical-menu=750px><a href="{{ route('feature') }}"
+                                                    class="ekit-menu-nav-link"
+                                                    style="color: {{ request()->routeIs('feature') ? '#707070' : '#121212' }};">Features</a>
+                                            </li>
                                             <li id="menu-item-49"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-49 nav-item elementskit-mobile-builder-content"
-                                                data-vertical-menu=750px><a
-                                                    href="https://web.sociolib.com/finext/template-kit/pricing/"
-                                                    class="ekit-menu-nav-link">Pricing</a></li>
+                                                data-vertical-menu=750px><a href="{{ route('pricing') }}"
+                                                    class="ekit-menu-nav-link"
+                                                    style="color: {{ request()->routeIs('pricing') ? '#707070' : '#121212' }};">Pricing</a>
+                                            </li>
                                             <li id="menu-item-48"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content"
                                                 data-vertical-menu=750px><a href="#"
-                                                    class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Pages<i
-                                                        class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+                                                    class="ekit-menu-nav-link ekit-menu-dropdown-toggle"
+                                                    style="color: {{ request()->routeIs('about') || request()->routeIs('contact') || request()->routeIs('faqs') ? '#707070' : '#121212' }};">Pages
+                                                    <i class="fas fa-angle-down"></i></a>
                                                 <ul class="elementskit-dropdown elementskit-submenu-panel">
                                                     <li id="menu-item-46"
                                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46 nav-item elementskit-mobile-builder-content"
-                                                        data-vertical-menu=750px><a
-                                                            href="https://web.sociolib.com/finext/template-kit/about/"
-                                                            class=" dropdown-item">About</a>
+                                                        data-vertical-menu=750px><a href="{{ route('about') }}"
+                                                            class=" dropdown-item"
+                                                            style="color: {{ request()->routeIs('about') ? '#707070' : '#121212' }};">About</a>
                                                     <li id="menu-item-51"
                                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51 nav-item elementskit-mobile-builder-content"
-                                                        data-vertical-menu=750px><a
-                                                            href="https://web.sociolib.com/finext/template-kit/contact/"
-                                                            class=" dropdown-item">Contact</a>
+                                                        data-vertical-menu=750px><a href="{{ route('contact') }}"
+                                                            class=" dropdown-item"
+                                                            style="color: {{ request()->routeIs('contact') ? '#707070' : '#121212' }};">Contact</a>
                                                     <li id="menu-item-50"
                                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50 nav-item elementskit-mobile-builder-content"
-                                                        data-vertical-menu=750px><a
-                                                            href="https://web.sociolib.com/finext/template-kit/faqs/"
-                                                            class=" dropdown-item">FAQs</a>
+                                                        data-vertical-menu=750px><a href="{{ route('faqs') }}"
+                                                            class=" dropdown-item"
+                                                            style="color: {{ request()->routeIs('faqs') ? '#707070' : '#121212' }};">FAQs</a>
                                                 </ul>
                                             </li>
                                         </ul>
                                         <div class="elementskit-nav-identity-panel">
                                             <div class="elementskit-site-title">
-                                                <a class="elementskit-nav-logo"
-                                                    href="https://web.sociolib.com/finext" target="_self"
+                                                <a class="elementskit-nav-logo" href="" target="_self"
                                                     rel="">
                                                     <img width="300" height="108"
                                                         src="https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/logo-finext.png"
@@ -118,9 +123,9 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="#">
+                                        href="{{ route('login') }}">
                                         <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Contact Us</span>
+                                            <span class="elementor-button-text">Login</span>
                                         </span>
                                     </a>
                                 </div>

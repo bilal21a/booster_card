@@ -649,10 +649,10 @@
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <img decoding="async" width="888" height="593"
-                                                    src="https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/6.png"
+                                                    src="{{ asset('imgs/6.png') }}"
                                                     class="attachment-full size-full wp-image-194" alt=""
                                                     loading="lazy"
-                                                    srcset="https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/6.png 888w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/6-300x200.png 300w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/6-768x513.png 768w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/6-800x534.png 800w"
+                                                    srcset="{{ asset('imgs/6.png') }} 888w, {{ asset('imgs/6-300x200.png') }} 300w, {{ asset('imgs/6-768x513.png') }} 768w, {{ asset('imgs/6-800x534.png') }} 800w"
                                                     sizes="(max-width: 888px) 100vw, 888px" />
                                             </div>
                                         </div>
@@ -931,9 +931,9 @@
                             data-widget_type="image.default">
                             <div class="elementor-widget-container">
                                 <img decoding="async" width="1226" height="942"
-                                    src="https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/8.png"
+                                    src="{{ asset('imgs/8.png') }}"
                                     class="attachment-full size-full wp-image-199" alt="" loading="lazy"
-                                    srcset="https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/8.png 1226w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/8-300x231.png 300w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/8-1024x787.png 1024w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/8-768x590.png 768w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/8-800x615.png 800w"
+                                    srcset="{{ asset('imgs/8.png') }} 1226w, {{ asset('imgs/8-300x231.png') }} 300w, {{ asset('imgs/8-1024x787.png') }} 1024w, {{ asset('imgs/8-768x590.png') }} 768w, {{ asset('imgs/8-800x615.png') }} 800w"
                                     sizes="(max-width: 1226px) 100vw, 1226px" />
                             </div>
                         </div>
