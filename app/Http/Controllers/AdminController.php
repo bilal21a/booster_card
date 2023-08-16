@@ -2,11 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Models\User;
+use Yajra\DataTables\DataTables;
 
 class AdminController extends Controller
 {
     public function index(){
-        dd('hello');  
+        return view('admin.dashboard');
+    }
+
+    public function get_data()
+    {
+        $data = User::get();
+        return DataTables::of($data)->rawColumns()->make(true);
     }
 }

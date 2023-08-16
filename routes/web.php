@@ -45,3 +45,4 @@ Route::get('pricing', function () {
 })->name('pricing');
 
 Route::get('admin/dashboard', [AdminController::class, 'index'])->name('dashboard');
+Route::get('admin/get_user', [AdminController::class, 'get_data'])->name('get_users');
