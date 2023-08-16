@@ -3,7 +3,6 @@
 @section('css')
     <link rel='stylesheet' href='{{ asset('css/post-767.css') }}' />
     <link rel='stylesheet' href='{{ asset('custom/custom_login.css') }}' />
-
 @endsection
 @section('content')
     <div class="outer_wrapper">
@@ -25,16 +24,27 @@
                     <div class="slider-tab"></div>
                 </div>
                 <div class="form-inner">
-                    <form action="#" class="login">
+                    <form method="POST" action="{{ route('login') }}" class="login">
+                        @csrf
                         <div class="field">
-                            <input type="text" placeholder="Email Address" required>
+                            <input type="text" name="email" type="email" placeholder="Email Address" required>
                         </div>
+                        @error('email')
+                            <span style="color:red;font-size:small" role="">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
                         <div class="field">
-                            <input type="password" placeholder="Password" required>
+                            <input type="password" name="password" placeholder="Password" required>
                         </div>
-                        <div class="pass-link">
+                        @error('password')
+                            <span style="color:red;font-size:small" role="">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                        {{-- <div class="pass-link">
                             <a href="#">Forgot password?</a>
-                        </div>
+                        </div> --}}
                         <div class="field btn">
                             <div class="btn-layer"></div>
                             <input type="submit" value="Login" class="my_login_signup">
@@ -43,16 +53,40 @@
                             Not a member? <a href="">Signup now</a>
                         </div>
                     </form>
-                    <form action="#" class="signup">
+                    <form method="POST" action="{{ route('register') }}" class="signup">
+                        @csrf
                         <div class="field">
-                            <input type="text" placeholder="Email Address" required>
+                            <input type="text" placeholder="Name" required name="name">
                         </div>
+                        @error('name')
+                            <span style="color:red;font-size:small" role="">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
                         <div class="field">
-                            <input type="password" placeholder="Password" required>
+                            <input type="text" placeholder="Email Address" required name="email">
                         </div>
+                        @error('email')
+                            <span style="color:red;font-size:small" role="">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
                         <div class="field">
-                            <input type="password" placeholder="Confirm password" required>
+                            <input type="password" placeholder="Password" required name="password">
                         </div>
+                        @error('password')
+                            <span style="color:red;font-size:small" role="">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                        <div class="field">
+                            <input type="password" placeholder="Confirm password" required name="password_confirmation">
+                        </div>
+                        @error('password_confirmation')
+                            <span style="color:red;font-size:small" role="">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
                         <div class="field btn">
                             <div class="btn-layer"></div>
                             <input type="submit" value="Signup" class="my_login_signup">
