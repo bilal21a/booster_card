@@ -14,6 +14,7 @@ class AdminController extends Controller
     public function get_data()
     {
         $data = User::get();
-        return DataTables::of($data)->rawColumns()->make(true);
+        // dd($data);
+        return DataTables::of($data)->rawColumns(['name','email','src'])->make(true);
     }
 }
