@@ -11,7 +11,10 @@ class AdminController extends Controller
     public function index(Request $request)
     {
         $customer = $request->type;
-        return view('admin.dashboard', compact('customer'));
+        $udt_users=  User::where('src', 'udt')->count();
+        $booster_card= User::where('src', 'booster_card')->count();
+        $green_gen = User::where('src', 'green_gen')->count();
+        return view('admin.dashboard', compact('customer','udt_users','booster_card','green_gen'));
     }
 
     public function get_data(Request $request)
