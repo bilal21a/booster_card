@@ -36,6 +36,7 @@ class AdminController extends Controller
         if ($type == null) {
             $data = User::get();
         }
+        // dd($data);
         return DataTables::of($data)
             ->rawColumns(['name', 'email', 'src'])->make(true);
     }

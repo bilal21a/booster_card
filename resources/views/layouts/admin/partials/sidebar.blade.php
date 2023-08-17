@@ -33,7 +33,7 @@
                    <li class="slide">
                        {{-- <a href="#" --}}
                        <a href="{{ route('dashboard') }}"
-                           class="side-menu__item {{ request()->is('home*') ? 'active' : '' }}">
+                           class="side-menu__item {{ request()->is('admin/dashboard') && request()->query('type') == null ? 'active' : '' }}">
                            <i class="bx bxs-dashboard side-menu__icon"></i>
                            <span class="side-menu__label">Dashboard</span>
                        </a>
@@ -41,14 +41,14 @@
                     <li class="slide__category"><span class="category-name">Source</span></li>
                     <li class="slide">
                         <a href="{{ route('dashboard',['type'=>'udt']) }}"
-                            class="side-menu__item">
+                            class="side-menu__item {{ request()->is('admin/dashboard') && request()->query('type') === 'udt' ? 'active' : '' }}">
                             <i class="bx bxs-user side-menu__icon"></i>
                             <span class="side-menu__label">Utd Users</span>
                         </a>
                     </li>
                     <li class="slide">
                         <a href="{{ route('dashboard',['type'=>'booster_card']) }}"
-                            class="side-menu__item">
+                            class="side-menu__item {{ request()->is('admin/dashboard') && request()->query('type') === 'booster_card' ? 'active' : '' }}">
                             <i class="bx bxs-user side-menu__icon"></i>
                             <span class="side-menu__label">Booster Card Users</span>
                         </a>
@@ -56,7 +56,7 @@
                     <li class="slide">
                         <a href="{{ route('dashboard',['type'=>'green_gen']) }}"
                             class="side-menu__item">
-                            <i class="bx bxs-user side-menu__icon"></i>
+                            <i class="bx bxs-user side-menu__icon {{ request()->is('admin/dashboard') && request()->query('type') === 'green_gen' ? 'active' : '' }}"></i>
                             <span class="side-menu__label">Green Gen Users</span>
                         </a>
                     </li>
