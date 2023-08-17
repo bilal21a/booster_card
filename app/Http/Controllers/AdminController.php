@@ -22,16 +22,16 @@ class AdminController extends Controller
         $type = $request->type;
         if ($type == 'udt') {
             // dd('udt');
-            $data = User::where('src', 'udt')->get();
+            $data = User::where('src', 'udt')->where('role','user')->get();
         }
         if ($type == 'green_gen') {
             // dd('green_gen');
-            $data = User::where('src', 'green_gen')->get();
+            $data = User::where('src', 'green_gen')->where('role','user')->get();
             // str_replace('_', ' ',$data->src);           
         }
         if ($type == 'booster_card') {
             // dd('booster_card');
-            $data = User::where('src', 'booster_card')->get();
+            $data = User::where('src', 'booster_card')->where('role','user')->get();
         }
         if ($type == null) {
             $data = User::get();

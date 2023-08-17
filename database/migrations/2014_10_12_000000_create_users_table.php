@@ -19,6 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('email')->nullable();
             $table->string('src')->default('booster_card');
             $table->timestamp('email_verified_at')->nullable();
+            $table->string('role')->nullable();
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
