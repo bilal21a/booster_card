@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -39,10 +40,13 @@ Route::get('services', function () {
 
 Auth::routes();
 Route::middleware(['auth'])->group(function () {
+    Route::get('pricing', function () {
+        if (auth()->user()->role == 'admin') {
+            return redirect()->route('dashboard');
+        }
+        return view('pricing');
+    })->name('pricing');
 });
-Route::get('pricing', function () {
-    return view('pricing');
-})->name('pricing');
 
 Route::get('admin/dashboard', [AdminController::class, 'index'])->name('dashboard');
 Route::get('admin/get_user', [AdminController::class, 'get_data'])->name('get_users');
