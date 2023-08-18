@@ -59,9 +59,9 @@
                                 height="32" class="rounded-circle">
                         </div> --}}
                         <div class="d-sm-block d-none">
-                <p class="fw-semibold mb-0 lh-1">Umer</p>
+                <p class="fw-semibold mb-0 lh-1">{{ auth()->user()->name }}</p>
                 {{-- <p class="fw-semibold mb-0 lh-1">{{ $user_first }}</p> --}}
-                            <span class="op-7 fw-normal d-block fs-11">umer@gmail.com</span>
+                            <span class="op-7 fw-normal d-block fs-11">{{ auth()->user()->email }}</span>
                             {{-- <span class="op-7 fw-normal d-block fs-11">{{ $user_name->email }}</span> --}}
                         </div>
                     </div>
