@@ -30,7 +30,7 @@ Route::get('faqs', function () {
 Route::get('feature', function () {
     return view('feature');
 })->name('feature');
-Route::get('home', function () {
+Route::get('/', function () {
     return view('home');
 })->name('home');
 
