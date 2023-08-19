@@ -145,8 +145,8 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-icon-wrapper">
-                                    <div class="elementor-icon">
-                                        <i aria-hidden="true" class="icon icon-double-angle-pointing-to-right"></i>
+                                    <div class="elementor-icon"><i class="fas fa-angle-double-right"></i>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -930,8 +930,7 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                             data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <img decoding="async" width="1226" height="942"
-                                    src="{{ asset('imgs/8.png') }}"
+                                <img decoding="async" width="1226" height="942" src="{{ asset('imgs/8.png') }}"
                                     class="attachment-full size-full wp-image-199" alt="" loading="lazy"
                                     srcset="{{ asset('imgs/8.png') }} 1226w, {{ asset('imgs/8-300x231.png') }} 300w, {{ asset('imgs/8-1024x787.png') }} 1024w, {{ asset('imgs/8-768x590.png') }} 768w, {{ asset('imgs/8-800x615.png') }} 800w"
                                     sizes="(max-width: 1226px) 100vw, 1226px" />

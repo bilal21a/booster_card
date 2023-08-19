@@ -40,13 +40,15 @@ Route::get('services', function () {
 
 Auth::routes();
 Route::middleware(['auth'])->group(function () {
-    Route::get('pricing', function () {
-        if (auth()->user()->role == 'admin') {
-            return redirect()->route('dashboard');
-        }
-        return view('pricing');
-    })->name('pricing');
-
+    Route::get('/logout', function () {
+        Auth::logout();
+        return redirect()->route('login');
+    })->name('logout');
+    Route::middleware(['role'])->group(function () {
+        Route::get('pricing', function () {
+            return view('pricing');
+        })->name('pricing');
+    });
     Route::get('admin/dashboard', [AdminController::class, 'index'])->name('dashboard');
     Route::get('admin/show_users', [AdminController::class, 'show_users'])->name('show_users');
     Route::get('admin/get_users', [AdminController::class, 'get_data'])->name('get_users');

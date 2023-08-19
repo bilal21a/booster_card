@@ -61,6 +61,13 @@
                         </a>
                     </li>
                     <!-- End::slide -->
+                    <li class="slide__category"><span class="category-name">Logout</span></li>
+                    <li class="slide">
+                        <a href="{{ route('logout') }}" class="side-menu__item ">
+                            <i class="bx bxs-exit side-menu__icon"></i>
+                            <span class="side-menu__label">logout</span>
+                        </a>
+                    </li>
 
                </ul>
                <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191"
