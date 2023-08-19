@@ -48,5 +48,9 @@ Route::middleware(['auth'])->group(function () {
     })->name('pricing');
 });
 
+
+
+// three routes
 Route::get('admin/dashboard', [AdminController::class, 'index'])->name('dashboard');
-Route::get('admin/get_user', [AdminController::class, 'get_data'])->name('get_users');
+Route::get('admin/show_users', [AdminController::class, 'show_users'])->name('show_users');
+Route::get('admin/get_users', [AdminController::class, 'get_data'])->name('get_users');

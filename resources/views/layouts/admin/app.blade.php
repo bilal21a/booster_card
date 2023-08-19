@@ -19,7 +19,7 @@
     <link rel="icon" href="{{ asset('assets_admin/images/brand-logos/favicon.ico') }}" type="image/x-icon">
 
     <!-- Choices JS -->
-    <script src="{{ asset('assets/libs/choices.js/public/assets/scripts/choices.min.js') }}"></script>
+    <script src="{{ asset('assets_admin/libs/choices.js/public/assets/scripts/choices.min.js') }}"></script>
 
     <!-- Main Theme Js -->
     <script src="{{ asset('assets_admin/js/main.js') }}"></script>
@@ -46,7 +46,7 @@
     <link rel="stylesheet" href="{{ asset('assets_admin/libs/@simonwep/pickr/themes/nano.min.css') }}">
 
     <!-- Choices Css -->
-    <link rel="stylesheet" href="{{ asset('assets/libs/choices.js/public/assets/styles/choices.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets_admin/libs/choices.js/public/assets/styles/choices.min.css') }}">
 
     <!-- DataTables CSS -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css">
@@ -97,41 +97,41 @@
     </div>
     <div id="responsive-overlay"></div>
     <!-- Popper JS -->
-    <script src="{{ asset('assets/libs/@popperjs/core/umd/popper.min.js') }}"></script>
+    <script src="{{ asset('assets_admin/libs/@popperjs/core/umd/popper.min.js') }}"></script>
 
     <!-- Bootstrap JS -->
-    <script src="{{ asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets_admin/libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
     <!-- Defaultmenu JS -->
-    <script src="{{ asset('assets/js/defaultmenu.min.js') }}"></script>
+    <script src="{{ asset('assets_admin/js/defaultmenu.min.js') }}"></script>
 
     <!-- Node Waves JS-->
-    <script src="{{ asset('assets/libs/node-waves/waves.min.js') }}"></script>
+    <script src="{{ asset('assets_admin/libs/node-waves/waves.min.js') }}"></script>
 
     <!-- Sticky JS -->
-    <script src="{{ asset('assets/js/sticky.js') }}"></script>
+    <script src="{{ asset('assets_admin/js/sticky.js') }}"></script>
 
     <!-- Simplebar JS -->
-    <script src="{{ asset('assets/libs/simplebar/simplebar.min.js') }}"></script>
-    <script src="{{ asset('assets/js/simplebar.js') }}"></script>
+    <script src="{{ asset('assets_admin/libs/simplebar/simplebar.min.js') }}"></script>
+    <script src="{{ asset('assets_admin/js/simplebar.js') }}"></script>
 
     <!-- Color Picker JS -->
-    <script src="{{ asset('assets/libs/@simonwep/pickr/pickr.es5.min.js') }}"></script>
+    <script src="{{ asset('assets_admin/libs/@simonwep/pickr/pickr.es5.min.js') }}"></script>
 
     <!-- Custom-Switcher JS -->
-    <script src="{{ asset('assets/js/custom-switcher.min.js') }}"></script>
+    <script src="{{ asset('assets_admin/js/custom-switcher.min.js') }}"></script>
 
     <!-- JSVector Maps JS -->
-    <script src="{{ asset('assets/libs/jsvectormap/js/jsvectormap.min.js') }}"></script>
+    <script src="{{ asset('assets_admin/libs/jsvectormap/js/jsvectormap.min.js') }}"></script>
 
     <!-- JSVector Maps MapsJS -->
-    <script src="{{ asset('assets/libs/jsvectormap/maps/world-merc.js') }}"></script>
+    <script src="{{ asset('assets_admin/libs/jsvectormap/maps/world-merc.js') }}"></script>
 
     <!-- Apex Charts JS -->
-    <script src="{{ asset('assets/libs/apexcharts/apexcharts.min.js') }}"></script>
+    <script src="{{ asset('assets_admin/libs/apexcharts/apexcharts.min.js') }}"></script>
 
     <!-- Chartjs Chart JS -->
-    <script src="{{ asset('assets/libs/chart.js/chart.min.js') }}"></script>
+    <script src="{{ asset('assets_admin/libs/chart.js/chart.min.js') }}"></script>
 
 
 
@@ -147,10 +147,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 
     <!-- Internal Datatables JS -->
-    <script src="{{ asset('assets/js/datatables.js') }}"></script>
+    <script src="{{ asset('assets_admin/js/datatables.js') }}"></script>
 
     <!-- Custom JS -->
-    <script src="{{ asset('assets/js/custom.js') }}"></script>
+    <script src="{{ asset('assets_admin/js/custom.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
     {{-- google map --}}
