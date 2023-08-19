@@ -86,7 +86,7 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-icon-wrapper">
                                     <div class="elementor-icon">
-                                        <i aria-hidden="true" class="icon icon-double-angle-pointing-to-right"></i>
+                                        <i class="fas fa-angle-double-right"></i>
                                     </div>
                                 </div>
                             </div>
@@ -136,7 +136,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="icon icon-cart2"></i>
+                                                        <i class="fas fa-shopping-cart"></i>
                                                     </div>
                                                 </div>
                                             </div>
@@ -169,7 +169,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="icon icon-credit-card"></i>
+                                                        <i aria-hidden="true" class="far fa-credit-card"></i>
                                                     </div>
                                                 </div>
                                             </div>
@@ -202,7 +202,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="icon icon-like1"></i>
+                                                        <i aria-hidden="true" class="far fa-thumbs-up"></i>
                                                     </div>
                                                 </div>
                                             </div>
@@ -241,7 +241,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="icon icon-lock"></i>
+                                                        <i class="fas fa-lock"></i>
                                                     </div>
                                                 </div>
                                             </div>
@@ -274,7 +274,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="icon icon-graph-2"></i>
+                                                        <i class="fas fa-signal"></i>
                                                     </div>
                                                 </div>
                                             </div>
@@ -307,7 +307,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="icon icon-money1"></i>
+                                                        <i class="fas fa-money-bill"></i>
                                                     </div>
                                                 </div>
                                             </div>
@@ -346,8 +346,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="icon icon-shield11"></i>
-                                                    </div>
+                                                        <i class="fas fa-shield-alt"></i>                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -380,8 +379,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="icon icon-bill"></i>
-                                                    </div>
+                                                        <i class="fas fa-file-invoice"></i>                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -413,7 +411,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="icon icon-smile"></i>
+                                                        <i class="far fa-smile"></i>
                                                     </div>
                                                 </div>
                                             </div>

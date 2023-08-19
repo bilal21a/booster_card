@@ -15,7 +15,7 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}"
                             data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <a href="#">
+                                <a href="{{ route('home') }}">
                                     <img width="300" height="108"
                                         src="{{ asset('imgs/booster_card_logo_black.png') }}"
                                         class="attachment-full size-full wp-image-96" alt="" loading="lazy" />

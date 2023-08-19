@@ -35,7 +35,7 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                             data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h6 class="elementor-heading-title elementor-size-default"><a href="#">Services</a>
+                                <h6 class="elementor-heading-title elementor-size-default"><a href="{{ route('services') }}">Services</a>
                                 </h6>
                             </div>
                         </div>
@@ -44,7 +44,7 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:250}"
                             data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h6 class="elementor-heading-title elementor-size-default"><a href="#">Pricing</a>
+                                <h6 class="elementor-heading-title elementor-size-default"><a href="{{ route('pricing') }}">Pricing</a>
                                 </h6>
                             </div>
                         </div>
@@ -295,7 +295,7 @@
                             data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="{{ route('services') }}">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Our Services</span>
                                         </span>
@@ -341,8 +341,7 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-icon-wrapper">
                                     <div class="elementor-icon">
-                                        <i aria-hidden="true" class="icon icon-double-angle-pointing-to-right"></i>
-                                    </div>
+                                        <i class="fas fa-angle-double-right"></i>                                    </div>
                                 </div>
                             </div>
                         </div>

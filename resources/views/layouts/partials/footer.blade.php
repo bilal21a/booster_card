@@ -13,7 +13,7 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                             data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <a href="#">
+                                <a href="{{ route('home') }}">
                                     <img width="300" height="96"
                                         src="{{ asset('imgs/booster_card_logo_white.png') }}"
                                         class="attachment-full size-full wp-image-345" alt=""
@@ -41,7 +41,7 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="#">
+                                        href="{{ route('contact') }}">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Contact Us</span>
                                         </span>
