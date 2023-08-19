@@ -5,6 +5,14 @@
     <link rel='stylesheet' href='{{ asset('custom/custom_login.css') }}' />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <style>
+        .bg_green{
+            background-color: #136736;
+        }
+        .bg_brown{
+            background-color: #936c07;
+        }
+    </style>
 @endsection
 @section('content')
     <div class="outer_wrapper">
@@ -99,11 +107,11 @@
                 <div class="">
                     <p class="text-center text-gray-600">Or log in with:</p>
                     <div class="flex justify-center mt-2">
-                        <a href="#" class="bg-blue-600 hover:bg-white-700 text-white font-bold  px-4 rounded mx-2"
+                        <a href="#" class="bg_brown text-white font-bold  px-4 rounded mx-2"
                             style="padding-top: 8px;">
                             <img width="40px" src="{{ asset('imgs/udt_logo_small.png') }}" alt=""></a>
                         <a href="#"
-                            class="bg-green-400 hover:bg-green-500 text-white font-bold py-2 px-4 rounded mx-2">
+                            class="bg_green  text-white font-bold py-2 px-4 rounded mx-2">
                             <img width="30px" src="{{ asset('imgs/green_gen_small.png') }}" alt=""
                                 srcset=""></a>
                         </a>
