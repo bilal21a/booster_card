@@ -36,7 +36,7 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                             data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h6 class="elementor-heading-title elementor-size-default"><a href="#">Our
+                                <h6 class="elementor-heading-title elementor-size-default"><a href="{{ route('faqs') }}">Our
                                         Faqs</a></h6>
                             </div>
                         </div>
@@ -45,7 +45,7 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:250}"
                             data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h6 class="elementor-heading-title elementor-size-default"><a href="#">Pricing</a>
+                                <h6 class="elementor-heading-title elementor-size-default"><a href="{{ route('pricing') }}">Pricing</a>
                                 </h6>
                             </div>
                         </div>

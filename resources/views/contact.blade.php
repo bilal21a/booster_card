@@ -39,7 +39,7 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                             data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h6 class="elementor-heading-title elementor-size-default"><a href="#">Services</a>
+                                <h6 class="elementor-heading-title elementor-size-default"><a href="{{ route('services') }}">Services</a>
                                 </h6>
                             </div>
                         </div>
@@ -48,7 +48,7 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:250}"
                             data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h6 class="elementor-heading-title elementor-size-default"><a href="#">FAQs</a>
+                                <h6 class="elementor-heading-title elementor-size-default"><a href="{{ route('faqs') }}">FAQs</a>
                                 </h6>
                             </div>
                         </div>
@@ -125,30 +125,29 @@
                                                         <a href="#">
 
                                                             <span class="elementor-icon-list-icon">
-                                                                <i aria-hidden="true" class="icon icon-envelope2"></i>
+                                                                <i aria-hidden="true" class="far fa-envelope"></i>
                                                             </span>
                                                             <span class="elementor-icon-list-text"><span
                                                                     class="__cf_email__"
-                                                                    data-cfemail="741c1118181b34121d1a5a110c00">[email&#160;protected]</span></span>
+                                                                    data-cfemail="741c1118181b34121d1a5a110c00">info@bumblebeetrans.org</span></span>
                                                         </a>
                                                     </li>
                                                     <li class="elementor-icon-list-item">
                                                         <a href="#">
 
                                                             <span class="elementor-icon-list-icon">
-                                                                <i aria-hidden="true" class="icon icon-phone1"></i>
+                                                                <i aria-hidden="true" class="fas fa-phone-alt"></i>
                                                             </span>
-                                                            <span class="elementor-icon-list-text">+123 456 789</span>
+                                                            <span class="elementor-icon-list-text">(+260) 973 143 944</span>
                                                         </a>
                                                     </li>
                                                     <li class="elementor-icon-list-item">
                                                         <a href="#">
 
                                                             <span class="elementor-icon-list-icon">
-                                                                <i aria-hidden="true" class="icon icon-map-marker1"></i>
+                                                                <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
                                                             </span>
-                                                            <span class="elementor-icon-list-text">Global Park 20rd,
-                                                                London, UK</span>
+                                                            <span class="elementor-icon-list-text">Sun Share Tower 2nd Floor, Plot No. 23394/1 Lusaka, Zambia</span>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -172,7 +171,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="icon icon-envelope2"></i>
+                                                        <i aria-hidden="true" class="far fa-envelope"></i>
                                                     </div>
                                                 </div>
                                             </div>
@@ -185,7 +184,7 @@
 
                                                 <div class="elementor-image-box-wrapper">
                                                     <div class="elementor-image-box-content">
-                                                        <h5 class="elementor-image-box-title"><a href="#">Send
+                                                        <h5 class="elementor-image-box-title"><a href="{{ route('contact') }}">Send
                                                                 Message</a></h5>
                                                         <p class="elementor-image-box-description">Lorem ipsum dolor
                                                             sit amet, consectetur adipiscing elit. Ut elit tellus,
@@ -206,7 +205,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="icon icon-phone1"></i>
+                                                        <i aria-hidden="true" class="fas fa-phone-alt"></i>
                                                     </div>
                                                 </div>
                                             </div>
@@ -239,7 +238,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="icon icon-book"></i>
+                                                        <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
                                                     </div>
                                                 </div>
                                             </div>

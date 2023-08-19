@@ -145,8 +145,8 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-icon-wrapper">
-                                    <div class="elementor-icon"><i class="fas fa-angle-double-right"></i>
-                                        
+                                    <div class="elementor-icon">
+                                        <i class="fas fa-angle-double-right"></i>
                                     </div>
                                 </div>
                             </div>
@@ -1240,7 +1240,7 @@
                             data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="{{ route('faqs') }}">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">More FAQs</span>
                                         </span>
