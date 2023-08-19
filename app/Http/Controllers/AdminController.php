@@ -11,40 +11,29 @@ class AdminController extends Controller
 {
     public function index(Request $request)
     {
-        $customer = $request->type;
         $udt_users =  User::where('src', 'udt')->where('role', 'user')->count();
         $booster_card = User::where('src', 'booster_card')->where('role', 'user')->count();
         $green_gen = User::where('src', 'green_gen')->where('role', 'user')->count();
-        return view('admin.dashboard', compact('customer', 'udt_users', 'booster_card', 'green_gen'));
+        return view('admin.dashboard', compact('udt_users', 'booster_card', 'green_gen'));
     }
 
 
     public function show_users(Request $request)
     {
+        $types = ['udt', 'booster_card', 'green_gen'];
+        if (!in_array($request->type, $types)) {
+            return redirect()->back();
+        }
         $customer = $request->type;
-        return view('admin.show_users_data', compact('customer'));
+        $name = str_replace('_', ' ', $customer);
+
+        return view('admin.show_users_data', compact('customer', 'name'));
     }
+
     public function get_data(Request $request)
     {
-
         $type = $request->type;
-        if ($type == 'udt') {
-            // dd('udt');
-            $data = User::where('src', 'udt')->where('role', 'user')->get();
-        }
-        if ($type == 'green_gen') {
-            // dd('green_gen');
-            $data = User::where('src', 'green_gen')->where('role', 'user')->get();
-            // str_replace('_', ' ',$data->src);           
-        }
-        if ($type == 'booster_card') {
-            // dd('booster_card');
-            $data = User::where('src', 'booster_card')->where('role', 'user')->get();
-        }
-        if ($type == null) {
-            $data = User::get();
-        }
-        // dd($data);
+        $data = User::where('src', $type)->where('role', 'user')->get();
         return DataTables::of($data)
             ->rawColumns(['name', 'email', 'src'])->make(true);
     }

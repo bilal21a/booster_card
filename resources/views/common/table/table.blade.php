@@ -7,17 +7,17 @@
                  </div>
              </div>
              <div class="card-body">
-                <table class="table table-bordered data-table">
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Email</th>
-                            <th>Source</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    </tbody>
-                </table>
+                 <table id="{{ $table_id }}" class="responsiveDataTable table table-bordered text-nowrap">
+                     <thead>
+                         <tr>
+                             @foreach ($tableData as $data)
+                                 <th>{{ $data }}</th>
+                             @endforeach
+                         </tr>
+                     </thead>
+
+                     <tbody></tbody>
+                 </table>
              </div>
          </div>
      </div>
