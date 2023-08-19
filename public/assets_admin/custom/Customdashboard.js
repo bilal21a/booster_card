@@ -73,30 +73,21 @@ const chartColors = [
 
 // Create and render the charts
 const chartIds = [
-    "crm-customers",
-    "crm-divers",
-    "crm-vehicles",
-    "crm-fuel_stations",
-    "crm-toll_gate",
-    "crm-insurance_company"
+    "crm-udt",
+    "crm-booster_card",
+    "crm-green_gen",
 ];
 
 const backendType = [
     "users",
     "users",
-    "vehicles",
-    "fuel_stations",
-    "toll_gates",
-    "insurance_companies"
+    "users",
 ];
 
 const percentageIds = [
-    "per-customers",
-    "per-divers",
-    "per-vehicles",
-    "per-fuel_stations",
-    "per-toll_gate",
-    "per-insurance_company"
+    "per-udt",
+    "per-booster_card",
+    "per-green_gen",
 ];
 
 for (let i = 0; i < chartIds.length; i++) {
