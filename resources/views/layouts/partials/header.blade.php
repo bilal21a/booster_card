@@ -17,7 +17,7 @@
                             <div class="elementor-widget-container">
                                 <a href="#">
                                     <img width="300" height="108"
-                                        src="https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/logo-finext.png"
+                                        src="{{ asset('imgs/booster_card_logo_black.png') }}"
                                         class="attachment-full size-full wp-image-96" alt="" loading="lazy" />
                                 </a>
                             </div>

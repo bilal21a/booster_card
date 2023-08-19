@@ -362,7 +362,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="icon icon-cart2"></i>
+                                                        <i class="fas fa-shopping-cart"></i>
                                                     </div>
                                                 </div>
                                             </div>
@@ -395,8 +395,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="icon icon-credit-card"></i>
-                                                    </div>
+                                                        <i class="far fa-credit-card"></i>                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -428,8 +427,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="icon icon-like1"></i>
-                                                    </div>
+                                                        <i class="far fa-thumbs-up"></i>                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1106,7 +1104,7 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-icon-wrapper">
                                     <div class="elementor-icon">
-                                        <i aria-hidden="true" class="icon icon-double-angle-pointing-to-right"></i>
+                                        <div class="elementor-icon"><i class="fas fa-angle-double-right"></i>
                                     </div>
                                 </div>
                             </div>
@@ -1278,14 +1276,12 @@
                                                     <div class="ekit_accordion_icon_group">
                                                         <div class="ekit_accordion_normal_icon">
                                                             <!-- Normal Icon -->
-                                                            <i aria-hidden="true"
-                                                                class="icon-open icon-right icon icon-plus"></i>
+                                                          <i class="fas fa-plus"></i>
                                                         </div>
 
                                                         <div class="ekit_accordion_active_icon">
                                                             <!-- Active Icon -->
-                                                            <i aria-hidden="true"
-                                                                class="icon-closed icon-right icon icon-minus"></i>
+                                                           <i class="fas fa-minus"></i>
                                                         </div>
 
                                                     </div>
@@ -1327,14 +1323,12 @@
                                                     <div class="ekit_accordion_icon_group">
                                                         <div class="ekit_accordion_normal_icon">
                                                             <!-- Normal Icon -->
-                                                            <i aria-hidden="true"
-                                                                class="icon-open icon-right icon icon-plus"></i>
+                                                          <i class="fas fa-plus"></i>
                                                         </div>
 
                                                         <div class="ekit_accordion_active_icon">
                                                             <!-- Active Icon -->
-                                                            <i aria-hidden="true"
-                                                                class="icon-closed icon-right icon icon-minus"></i>
+                                                           <i class="fas fa-minus"></i>
                                                         </div>
 
                                                     </div>
@@ -1376,14 +1370,12 @@
                                                     <div class="ekit_accordion_icon_group">
                                                         <div class="ekit_accordion_normal_icon">
                                                             <!-- Normal Icon -->
-                                                            <i aria-hidden="true"
-                                                                class="icon-open icon-right icon icon-plus"></i>
+                                                          <i class="fas fa-plus"></i>
                                                         </div>
 
                                                         <div class="ekit_accordion_active_icon">
                                                             <!-- Active Icon -->
-                                                            <i aria-hidden="true"
-                                                                class="icon-closed icon-right icon icon-minus"></i>
+                                                           <i class="fas fa-minus"></i>
                                                         </div>
 
                                                     </div>
@@ -1425,14 +1417,12 @@
                                                     <div class="ekit_accordion_icon_group">
                                                         <div class="ekit_accordion_normal_icon">
                                                             <!-- Normal Icon -->
-                                                            <i aria-hidden="true"
-                                                                class="icon-open icon-right icon icon-plus"></i>
+                                                          <i class="fas fa-plus"></i>
                                                         </div>
 
                                                         <div class="ekit_accordion_active_icon">
                                                             <!-- Active Icon -->
-                                                            <i aria-hidden="true"
-                                                                class="icon-closed icon-right icon icon-minus"></i>
+                                                           <i class="fas fa-minus"></i>
                                                         </div>
 
                                                     </div>
