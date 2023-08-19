@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Booster Card</title>
     <link rel="icon" href="{{ asset('imgs/booster_white_small_logo.png') }}" type="image/x-icon">
 
     <link rel='stylesheet' href='{{ asset('css/custom-frontend-lite.min.css') }}' />
