@@ -9,6 +9,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Booster Card</title>
+    <link rel="icon" href="{{ asset('imgs/booster_white_small_logo.png') }}" type="image/x-icon">
     <meta name="Description" content="Bootstrap Responsive Admin Web Dashboard HTML5 Template">
     <meta name="Author" content="Spruko Technologies Private Limited">
     <meta name="keywords"
@@ -16,7 +17,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('assets_admin/images/brand-logos/favicon.ico') }}" type="image/x-icon">
+    {{-- <link rel="icon" href="{{ asset('assets_admin/images/brand-logos/favicon.ico') }}" type="image/x-icon"> --}}
 
     <!-- Choices JS -->
     <script src="{{ asset('assets_admin/libs/choices.js/public/assets/scripts/choices.min.js') }}"></script>
