@@ -30,7 +30,7 @@
                                         </div>
                                         <div class="d-flex align-items-center justify-content-between mt-1">
                                             <div>
-                                                <a class="text-primary" href="#">View All<i
+                                                <a class="text-primary" href="{{ route('show_users',['type'=>'udt']) }}">View All<i
                                                         class="ti ti-arrow-narrow-right ms-2 fw-semibold d-inline-block"></i></a>
                                             </div>
                                             <div class="text-end">
@@ -66,7 +66,7 @@
                                         </div>
                                         <div class="d-flex align-items-center justify-content-between mt-1">
                                             <div>
-                                                <a class="text-secondary" href="#">View All<i
+                                                <a class="text-secondary"  href="{{ route('show_users',['type'=>'booster_card']) }}">View All<i
                                                         class="ti ti-arrow-narrow-right ms-2 fw-semibold d-inline-block"></i></a>
                                             </div>
                                             <div class="text-end">
@@ -102,7 +102,7 @@
                                         </div>
                                         <div class="d-flex align-items-center justify-content-between mt-1">
                                             <div>
-                                                <a class="text-success" href="#">View All<i
+                                                <a class="text-success"  href="{{ route('show_users',['type'=>'green_gen']) }}">View All<i
                                                         class="ti ti-arrow-narrow-right ms-2 fw-semibold d-inline-block"></i></a>
                                             </div>
                                             <div class="text-end">

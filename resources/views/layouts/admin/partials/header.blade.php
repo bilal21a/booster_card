@@ -18,7 +18,9 @@
                         <img src="{{ asset('assets/logo/logo_black.png') }}" alt="logo"
                             class="desktop-dark">
                         <img src="{{ asset('assets/logo/logo_black.png') }}" alt="logo"
-                            class="toggle-dark">
+                            class="toggle-dark">0%
+
+                            this month
                     </a>
                 </div>
             </div>
@@ -69,9 +71,9 @@
                 <!-- End::header-link|dropdown-toggle -->
                 <ul class="main-header-dropdown dropdown-menu pt-0 overflow-hidden header-profile-dropdown dropdown-menu-end"
                     aria-labelledby="mainHeaderProfile">
-                    <li><a class="dropdown-item d-flex border-block-end"><i
+                    {{-- <li><a class="dropdown-item d-flex border-block-end"><i
                                 class="ti ti-wallet fs-18 me-2 op-7"></i>Role : petrol wala</a></li>
-                                {{-- class="ti ti-wallet fs-18 me-2 op-7"></i>Role : {{ ucfirst($user_name->role) }}</a></li> --}}
+                                class="ti ti-wallet fs-18 me-2 op-7"></i>Role : {{ ucfirst($user_name->role) }}</a></li> --}}
                   {{-- <li><a class="dropdown-item d-flex" href="{{ route('logout') }}"><i --}}
                   <li><a class="dropdown-item d-flex" href="#"><i
                                 class="ti ti-logout fs-18 me-2 op-7"></i>Log Out</a></li>
