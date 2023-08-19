@@ -99,16 +99,13 @@
                 <div class="">
                     <p class="text-center text-gray-600">Or log in with:</p>
                     <div class="flex justify-center mt-2">
-                        <a href="#"
-                            class="bg-blue-600 hover:bg-white-700 text-white font-bold py-2 px-4 rounded mx-2">
-                            <img width="30px" src="{{ asset('imgs/udt_logo_small.png') }}" alt=""></a>
+                        <a href="#" class="bg-blue-600 hover:bg-white-700 text-white font-bold  px-4 rounded mx-2"
+                            style="padding-top: 8px;">
+                            <img width="40px" src="{{ asset('imgs/udt_logo_small.png') }}" alt=""></a>
                         <a href="#"
                             class="bg-green-400 hover:bg-green-500 text-white font-bold py-2 px-4 rounded mx-2">
                             <img width="30px" src="{{ asset('imgs/green_gen_small.png') }}" alt=""
                                 srcset=""></a>
-                        </a>
-                        <a href="#" class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mx-2">
-                            <img width="30px" src="{{ asset('imgs/udt_logo_small.png') }}" alt="">
                         </a>
                     </div>
                 </div>
