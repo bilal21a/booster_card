@@ -23,11 +23,11 @@
     <link rel='stylesheet' href='{{ asset('css/swiper.min.css') }}' />
     <link rel='stylesheet' href='{{ asset('css/widget-styles.css') }}' />
     <link rel='stylesheet'
-	href='https://fonts.googleapis.com/css?family=Gantari%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.2.2' />
+        href='https://fonts.googleapis.com/css?family=Gantari%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.2.2' />
     <link rel='stylesheet' href='{{ asset('css/fontawesome.min.css') }}' />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.17.0/font/bootstrap-icons.css" rel="stylesheet">
     <link rel='stylesheet' href="{{ asset('css/brands.min.css') }}" />
-	<link rel='stylesheet' href='{{ asset('custom/custom_comon.css') }}' />
+    <link rel='stylesheet' href='{{ asset('custom/custom_comon.css') }}' />
     <script src='{{ asset('js_service/shims.min.js') }}'></script>
     <script src='{{ asset('js/jquery.min.js') }}'></script>
     <script src="{{ asset('js/jquery-migrate.min.js') }}"></script>
@@ -37,6 +37,25 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
     @yield('css')
+    <style>
+        .bg_green {
+            background-color: #136736;
+        }
+
+        .bg_brown {
+            background-color: #936c07;
+        }
+
+        .bg_orange {
+            background-color: var(--e-global-color-primary);
+        }
+
+        /* @media (min-width: 768px) {
+            .header-custom-width{
+                width: 85% !important;
+            }
+        } */
+    </style>
 </head>
 
 <body

@@ -24,7 +24,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-e3bf1d6"
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-e3bf1d6 header-custom-width"
                     data-id="e3bf1d6" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-ef277ff elementor-invisible elementor-widget elementor-widget-ekit-nav-menu"
@@ -91,27 +91,21 @@
                                                             style="color: {{ request()->routeIs('faqs') ? '#707070' : '#121212' }};">FAQs</a>
                                                 </ul>
                                             </li>
-                                            <li id="menu-item-48"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content"
-                                                data-vertical-menu=750px><a href="#"
-                                                    class="ekit-menu-nav-link ekit-menu-dropdown-toggle">LOGIN/SIGNUP
-                                                    <i class="fas fa-angle-down"></i></a>
-                                                <ul class="elementskit-dropdown elementskit-submenu-panel">
-                                                    <li id="menu-item-46"
-                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46 nav-item elementskit-mobile-builder-content"
-                                                        data-vertical-menu=750px><a href="{{ route('about') }}"
-                                                            class=" dropdown-item">UDT</a>
-                                                    <li id="menu-item-51"
-                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51 nav-item elementskit-mobile-builder-content"
-                                                        data-vertical-menu=750px><a href="{{ route('contact') }}"
-                                                            class=" dropdown-item">GREEN GEN</a>
-                                                    <li id="menu-item-50"
-                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50 nav-item elementskit-mobile-builder-content"
-                                                        data-vertical-menu=750px><a href="{{ route('faqs') }}"
-                                                            class=" dropdown-item">SME</a>
-                                                </ul>
+                                            <li style="display: flex">
+                                                <a href="#" class="bg_orange  text-white font-bold py-2 px-4 rounded mx-2">
+                                                    <img width="30px" src="{{ asset('imgs/booster_white_small_logo.png') }}" alt=""
+                                                        srcset=""></a>
+                                                </a>
+                                                <a href="#" class="bg_brown text-white font-bold py-2  px-4 rounded mx-2"
+                                                    style="">
+                                                    <img width="30px" src="{{ asset('imgs/udt_logo_small.png') }}" alt=""></a>
+                                                <a href="#" class="bg_green  text-white font-bold py-2 px-4 rounded mx-2">
+                                                    <img width="30px" src="{{ asset('imgs/green_gen_small.png') }}" alt=""
+                                                        srcset=""></a>
+                                                </a>
                                             </li>
                                         </ul>
+                                        
                                         <div class="elementskit-nav-identity-panel">
                                             <div class="elementskit-site-title">
                                                 <a class="elementskit-nav-logo" href="" target="_self"
@@ -133,15 +127,21 @@
                         </div>
                     </div>
                 </div>
+
                 {{-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a498075 elementor-hidden-mobile"
                     data-id="a498075" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
+             
                         <div class="elementor-element elementor-element-c5195d1 elementor-align-right elementor-invisible elementor-widget elementor-widget-button"
                             data-id="c5195d1" data-element_type="widget"
                             data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}"
                             data-widget_type="button.default">
+                            
                             <div class="elementor-widget-container">
+                                
                                 <div class="elementor-button-wrapper">
+
+                              
                                     <a class="elementor-button elementor-button-link elementor-size-sm"
                                         href="{{ route('login') }}">
                                         <span class="elementor-button-content-wrapper">

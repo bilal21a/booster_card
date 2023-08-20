@@ -3,15 +3,6 @@
 @section('css')
     <link rel='stylesheet' href='{{ asset('css/post-767.css') }}' />
     <link rel='stylesheet' href='{{ asset('custom/custom_login.css') }}' />
-
-    <style>
-        .bg_green{
-            background-color: #136736;
-        }
-        .bg_brown{
-            background-color: #936c07;
-        }
-    </style>
 @endsection
 @section('content')
     <div class="outer_wrapper">
