@@ -335,12 +335,12 @@
                             class="elementor-section elementor-inner-section elementor-element elementor-element-e6c91bf elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="e6c91bf" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4a963ba"
-                                    data-id="4a963ba" data-element_type="column"
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-47f431f"
+                                    data-id="47f431f" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-55a7bbb elementor-view-default elementor-invisible elementor-widget elementor-widget-icon"
-                                            data-id="55a7bbb" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-d9dd1ce elementor-view-default elementor-invisible elementor-widget elementor-widget-icon"
+                                            data-id="d9dd1ce" data-element_type="widget"
                                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                             data-widget_type="icon.default">
                                             <div class="elementor-widget-container">
@@ -351,15 +351,14 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-f90a66d elementor-position-top elementor-vertical-align-top elementor-invisible elementor-widget elementor-widget-image-box"
-                                            data-id="f90a66d" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-aabee64 elementor-position-top elementor-vertical-align-top elementor-invisible elementor-widget elementor-widget-image-box"
+                                            data-id="aabee64" data-element_type="widget"
                                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                                             data-widget_type="image-box.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-image-box-wrapper">
                                                     <div class="elementor-image-box-content">
-                                                        <h5 class="elementor-image-box-title">Secure Authentication
-                                                        </h5>
+                                                        <h5 class="elementor-image-box-title">Secure Authentication</h5>
                                                         <p class="elementor-image-box-description">Lorem ipsum dolor
                                                             sit amet, consectetur adipiscing elit. Ut elit tellus,
                                                             luctus nec ullamcorper.</p>
