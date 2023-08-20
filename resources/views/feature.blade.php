@@ -158,12 +158,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4080b36"
-                                    data-id="4080b36" data-element_type="column"
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7e003d7"
+                                    data-id="7e003d7" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-9fa5722 elementor-view-default elementor-invisible elementor-widget elementor-widget-icon"
-                                            data-id="9fa5722" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-fb54cbb elementor-view-default elementor-invisible elementor-widget elementor-widget-icon"
+                                            data-id="fb54cbb" data-element_type="widget"
                                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:250}"
                                             data-widget_type="icon.default">
                                             <div class="elementor-widget-container">
@@ -174,8 +174,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-59adcd0 elementor-position-top elementor-vertical-align-top elementor-invisible elementor-widget elementor-widget-image-box"
-                                            data-id="59adcd0" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-1951b33 elementor-position-top elementor-vertical-align-top elementor-invisible elementor-widget elementor-widget-image-box"
+                                            data-id="1951b33" data-element_type="widget"
                                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:250}"
                                             data-widget_type="image-box.default">
                                             <div class="elementor-widget-container">
@@ -191,24 +191,24 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7e003d7"
-                                    data-id="7e003d7" data-element_type="column"
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-d98c594"
+                                    data-id="d98c594" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-fb54cbb elementor-view-default elementor-invisible elementor-widget elementor-widget-icon"
-                                            data-id="fb54cbb" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-3e14bd6 elementor-view-default elementor-invisible elementor-widget elementor-widget-icon"
+                                            data-id="3e14bd6" data-element_type="widget"
                                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:500}"
                                             data-widget_type="icon.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="far fa-thumbs-up"></i>
+                                                        <i class="fas fa-thumbs-up"></i>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-1951b33 elementor-position-top elementor-vertical-align-top elementor-invisible elementor-widget elementor-widget-image-box"
-                                            data-id="1951b33" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-cadb725 elementor-position-top elementor-vertical-align-top elementor-invisible elementor-widget elementor-widget-image-box"
+                                            data-id="cadb725" data-element_type="widget"
                                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:500}"
                                             data-widget_type="image-box.default">
                                             <div class="elementor-widget-container">
@@ -296,12 +296,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4a0723a"
-                                    data-id="4a0723a" data-element_type="column"
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-556b9cf"
+                                    data-id="556b9cf" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-067a187 elementor-view-default elementor-invisible elementor-widget elementor-widget-icon"
-                                            data-id="067a187" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-e5d5f26 elementor-view-default elementor-invisible elementor-widget elementor-widget-icon"
+                                            data-id="e5d5f26" data-element_type="widget"
                                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:500}"
                                             data-widget_type="icon.default">
                                             <div class="elementor-widget-container">
@@ -312,8 +312,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-6009319 elementor-position-top elementor-vertical-align-top elementor-invisible elementor-widget elementor-widget-image-box"
-                                            data-id="6009319" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-298b174 elementor-position-top elementor-vertical-align-top elementor-invisible elementor-widget elementor-widget-image-box"
+                                            data-id="298b174" data-element_type="widget"
                                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:500}"
                                             data-widget_type="image-box.default">
                                             <div class="elementor-widget-container">
@@ -346,7 +346,8 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i class="fas fa-shield-alt"></i>                                                    </div>
+                                                        <i class="fas fa-shield-alt"></i>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -379,7 +380,8 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i class="fas fa-file-invoice"></i>                                                    </div>
+                                                        <i class="fas fa-file-invoice"></i>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

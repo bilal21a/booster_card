@@ -3,8 +3,7 @@
 @section('css')
     <link rel='stylesheet' href='{{ asset('css/post-767.css') }}' />
     <link rel='stylesheet' href='{{ asset('custom/custom_login.css') }}' />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
     <style>
         .bg_green{
             background-color: #136736;

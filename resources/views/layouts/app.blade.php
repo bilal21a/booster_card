@@ -34,7 +34,8 @@
     <script src='{{ asset('js/template-kit-export-public.min.js') }}'></script>
     <script src='{{ asset('custom/custom_comon.js') }}'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
     @yield('css')
 </head>
 

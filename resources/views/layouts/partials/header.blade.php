@@ -91,13 +91,33 @@
                                                             style="color: {{ request()->routeIs('faqs') ? '#707070' : '#121212' }};">FAQs</a>
                                                 </ul>
                                             </li>
+                                            <li id="menu-item-48"
+                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content"
+                                                data-vertical-menu=750px><a href="#"
+                                                    class="ekit-menu-nav-link ekit-menu-dropdown-toggle">LOGIN/SIGNUP
+                                                    <i class="fas fa-angle-down"></i></a>
+                                                <ul class="elementskit-dropdown elementskit-submenu-panel">
+                                                    <li id="menu-item-46"
+                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46 nav-item elementskit-mobile-builder-content"
+                                                        data-vertical-menu=750px><a href="{{ route('about') }}"
+                                                            class=" dropdown-item">UDT</a>
+                                                    <li id="menu-item-51"
+                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51 nav-item elementskit-mobile-builder-content"
+                                                        data-vertical-menu=750px><a href="{{ route('contact') }}"
+                                                            class=" dropdown-item">GREEN GEN</a>
+                                                    <li id="menu-item-50"
+                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50 nav-item elementskit-mobile-builder-content"
+                                                        data-vertical-menu=750px><a href="{{ route('faqs') }}"
+                                                            class=" dropdown-item">SME</a>
+                                                </ul>
+                                            </li>
                                         </ul>
                                         <div class="elementskit-nav-identity-panel">
                                             <div class="elementskit-site-title">
                                                 <a class="elementskit-nav-logo" href="" target="_self"
                                                     rel="">
                                                     <img width="300" height="108"
-                                                        src="https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/logo-finext.png"
+                                                        src="{{ asset('imgs/booster_card_logo_black.png') }}"
                                                         class="attachment-full size-full" alt=""
                                                         decoding="async" loading="lazy" />
                                                 </a>
@@ -113,7 +133,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a498075 elementor-hidden-mobile"
+                {{-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a498075 elementor-hidden-mobile"
                     data-id="a498075" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-c5195d1 elementor-align-right elementor-invisible elementor-widget elementor-widget-button"
@@ -132,7 +152,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </section>
     </div>
