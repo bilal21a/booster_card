@@ -35,7 +35,8 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}"
                             data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h6 class="elementor-heading-title elementor-size-default"><a href="{{ route('services') }}">Services</a>
+                                <h6 class="elementor-heading-title elementor-size-default"><a
+                                        href="{{ route('services') }}">Services</a>
                                 </h6>
                             </div>
                         </div>
@@ -44,7 +45,8 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:250}"
                             data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h6 class="elementor-heading-title elementor-size-default"><a href="{{ route('pricing') }}">Pricing</a>
+                                <h6 class="elementor-heading-title elementor-size-default"><a
+                                        href="{{ route('pricing') }}">Pricing</a>
                                 </h6>
                             </div>
                         </div>
@@ -106,8 +108,8 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-icon-wrapper">
                                     <div class="elementor-icon">
-                                        <i class="fas fa-angle-double-right"></i>   
-                                                                        </div>
+                                        <i class="fas fa-angle-double-right"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -139,17 +141,15 @@
                                                     data-ekit-toggle="collapse"
                                                     data-target="#Collapse-322908864c29838e4a25" aria-expanded="true"
                                                     aria-controls="Collapse-322908864c29838e4a25">
-                                                    <span class="ekit-accordion-title">What is Finext?</span>
+                                                    <span class="ekit-accordion-title">What is Booster Card?</span>
                                                     <div class="ekit_accordion_icon_group">
                                                         <div class="ekit_accordion_normal_icon">
                                                             <!-- Normal Icon -->
-                                                            <i aria-hidden="true"
-                                                                class="icon-open icon-right icon icon-plus"></i>
+                                                            <i aria-hidden="true" class="fas fa-plus"></i>
                                                         </div>
                                                         <div class="ekit_accordion_active_icon">
                                                             <!-- Active Icon -->
-                                                            <i aria-hidden="true"
-                                                                class="icon-closed icon-right icon icon-minus"></i>
+                                                            <i class="fas fa-minus"></i>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -177,12 +177,11 @@
                                                         offer?</span>
                                                     <div class="ekit_accordion_icon_group">
                                                         <div class="ekit_accordion_normal_icon">
-                                                            <i aria-hidden="true"
-                                                                class="icon-open icon-right icon icon-plus"></i>
+                                                            <i aria-hidden="true" class="fas fa-plus"></i>
+
                                                         </div>
                                                         <div class="ekit_accordion_active_icon">
-                                                            <i aria-hidden="true"
-                                                                class="icon-closed icon-right icon icon-minus"></i>
+                                                            <i class="fas fa-minus"></i>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -210,12 +209,10 @@
                                                         banking?</span>
                                                     <div class="ekit_accordion_icon_group">
                                                         <div class="ekit_accordion_normal_icon">
-                                                            <i aria-hidden="true"
-                                                                class="icon-open icon-right icon icon-plus"></i>
+                                                            <i aria-hidden="true" class="fas fa-plus"></i>
                                                         </div>
                                                         <div class="ekit_accordion_active_icon">
-                                                            <i aria-hidden="true"
-                                                                class="icon-closed icon-right icon icon-minus"></i>
+                                                            <i class="fas fa-minus"></i>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -242,12 +239,10 @@
                                                     <span class="ekit-accordion-title">How to create an account?</span>
                                                     <div class="ekit_accordion_icon_group">
                                                         <div class="ekit_accordion_normal_icon">
-                                                            <i aria-hidden="true"
-                                                                class="icon-open icon-right icon icon-plus"></i>
+                                                            <i aria-hidden="true" class="fas fa-plus"></i>
                                                         </div>
                                                         <div class="ekit_accordion_active_icon">
-                                                            <i aria-hidden="true"
-                                                                class="icon-closed icon-right icon icon-minus"></i>
+                                                            <i class="fas fa-minus"></i>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -275,12 +270,10 @@
                                                         wallet?</span>
                                                     <div class="ekit_accordion_icon_group">
                                                         <div class="ekit_accordion_normal_icon">
-                                                            <i aria-hidden="true"
-                                                                class="icon-open icon-right icon icon-plus"></i>
+                                                            <i aria-hidden="true" class="fas fa-plus"></i>
                                                         </div>
                                                         <div class="ekit_accordion_active_icon">
-                                                            <i aria-hidden="true"
-                                                                class="icon-closed icon-right icon icon-minus"></i>
+                                                            <i class="fas fa-minus"></i>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -307,12 +300,9 @@
                                                         account?</span>
                                                     <div class="ekit_accordion_icon_group">
                                                         <div class="ekit_accordion_normal_icon">
-                                                            <i aria-hidden="true"
-                                                                class="icon-open icon-right icon icon-plus"></i>
-                                                        </div>
+                                                            <i class="fas fa-plus"></i>                                                        </div>
                                                         <div class="ekit_accordion_active_icon">
-                                                            <i aria-hidden="true"
-                                                                class="icon-closed icon-right icon icon-minus"></i>
+                                                            <i aria-hidden="true"class="fas fa-minus"></i>
                                                         </div>
                                                     </div>
                                                 </a>

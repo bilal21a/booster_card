@@ -37,7 +37,8 @@
                                     data-responsive-breakpoint="767"> <button
                                         class="elementskit-menu-hamburger elementskit-menu-toggler" type="button"
                                         aria-label="hamburger-icon">
-                                        <i aria-hidden="true" class="ekit-menu-icon icon icon-menu-11"></i>
+                                        <i aria-hidden="true" class="ekit-menu-icon fas fa-bars"></i>
+                                        {{-- <i class=""></i> --}}
                                     </button>
                                     <div id="ekit-megamenu-menu"
                                         class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default elementskit_fill_arrow ekit-nav-menu-one-page- ekit-nav-dropdown-hover">
