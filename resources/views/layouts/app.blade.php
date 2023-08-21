@@ -50,6 +50,14 @@
             background-color: var(--e-global-color-primary);
         }
 
+        .border_orange {
+            border: 1px solid;
+        }
+
+        .border_orange:hover {
+            border-color: var(--e-global-color-primary);
+        }
+
         /* @media (min-width: 768px) {
             .header-custom-width{
                 width: 85% !important;
