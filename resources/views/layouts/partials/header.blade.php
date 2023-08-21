@@ -91,7 +91,7 @@
                                                             style="color: {{ request()->routeIs('faqs') ? '#707070' : '#121212' }};">FAQs</a>
                                                 </ul>
                                             </li>
-                                            <li style="display: flex">
+                                            {{-- <li style="display: flex">
                                                 <a href="#" class="bg_orange  text-white font-bold py-2 px-4 rounded mx-2">
                                                     <img width="30px" src="{{ asset('imgs/booster_white_small_logo.png') }}" alt=""
                                                         srcset=""></a>
@@ -103,7 +103,7 @@
                                                     <img width="30px" src="{{ asset('imgs/green_gen_small.png') }}" alt=""
                                                         srcset=""></a>
                                                 </a>
-                                            </li>
+                                            </li> --}}
                                         </ul>
                                         
                                         <div class="elementskit-nav-identity-panel">
@@ -128,7 +128,7 @@
                     </div>
                 </div>
 
-                {{-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a498075 elementor-hidden-mobile"
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a498075 elementor-hidden-mobile"
                     data-id="a498075" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
              
@@ -138,8 +138,20 @@
                             data-widget_type="button.default">
                             
                             <div class="elementor-widget-container">
-                                
-                                <div class="elementor-button-wrapper">
+                                <li style="display: flex">
+                                    <a href="#" class="bg_orange  text-white font-bold py-2 px-4 rounded mx-2">
+                                        <img width="30px" src="{{ asset('imgs/booster_white_small_logo.png') }}" alt=""
+                                            srcset=""></a>
+                                    </a>
+                                    <a href="#" class="bg_brown text-white font-bold py-2  px-4 rounded mx-2"
+                                        style="">
+                                        <img width="30px" src="{{ asset('imgs/udt_logo_small.png') }}" alt=""></a>
+                                    <a href="#" class="bg_green  text-white font-bold py-2 px-4 rounded mx-2">
+                                        <img width="30px" src="{{ asset('imgs/green_gen_small.png') }}" alt=""
+                                            srcset=""></a>
+                                    </a>
+                                </li>
+                                {{-- <div class="elementor-button-wrapper">
 
                               
                                     <a class="elementor-button elementor-button-link elementor-size-sm"
@@ -148,11 +160,11 @@
                                             <span class="elementor-button-text">Login</span>
                                         </span>
                                     </a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
-                </div> --}}
+                </div>
             </div>
         </section>
     </div>
