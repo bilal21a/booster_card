@@ -56,6 +56,7 @@
 
         .border_orange:hover {
             border-color: var(--e-global-color-primary);
+            transform: scale(1.1); 
         }
 
         /* @media (min-width: 768px) {
