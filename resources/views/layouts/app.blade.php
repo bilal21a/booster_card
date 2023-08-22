@@ -50,11 +50,17 @@
             background-color: var(--e-global-color-primary);
         }
 
-        .border_orange {
-            border: 1px solid;
+        .border_black {
+            border: 1px solid black !important;
+        }
+        .border_brown {
+            border: 1px solid #936C07 !important;
+        }
+        .border_green {
+            border: 1px solid #136736 !important;
         }
 
-        .border_orange:hover {
+        .border_black:hover,.border_brown:hover,.border_green:hover {
             border-color: var(--e-global-color-primary);
             transform: scale(1.1); 
         }
@@ -64,6 +70,11 @@
                 width: 85% !important;
             }
         } */
+        .login_signup_text{
+            text-align: center;
+            color:black !important;
+            padding-bottom: 1px;
+        }
     </style>
 </head>
 

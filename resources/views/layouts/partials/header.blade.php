@@ -139,15 +139,17 @@
                             data-widget_type="button.default">
 
                             <div class="elementor-widget-container">
+                                <div class="login_signup_text">Login/Signup</div>
                                 <li style="display: flex">
-                                    <a href="#" class="font-bold py-2 rounded mx-2 border_orange"
+                                    <a href="#" class="font-bold py-2 rounded mx-2 border_black"
                                         style="padding-top: 15px;width: 4rem;text-align: -webkit-center;">
-                                        <img width="30px" src="{{ asset('custom/booster_small_orange.png') }}"></a>
-                                    <a href="#" class="font-bold py-2 rounded mx-2 border_orange"
+                                        <img width="30px" src="{{ asset('custom/booster_black.png') }}"></a>
+                                    <a href="#" class="font-bold py-2 rounded mx-2 border_brown"
                                         style="padding-top: 12px;width: 4rem;text-align: -webkit-center;">
-                                        <img width="30px" src="{{ asset('custom/udt_small_orange.png') }}"></a>
-                                    <a href="#" class="font-bold py-2 px-4 rounded mx-2 border_orange">
-                                        <img width="30px" src="{{ asset('custom/green_gen_orange.png') }}"></a>
+                                        <img width="30px" src="{{ asset('custom/udt_brown.png') }}"></a>
+                                    <a href="#" class="font-bold py-2 px-4 rounded mx-2 border_green">
+                                        <img width="30px"
+                                            src="{{ asset('custom/green_gen_small_green.png') }}"></a>
                                     </a>
                                 </li>
                                 {{-- <div class="elementor-button-wrapper">
