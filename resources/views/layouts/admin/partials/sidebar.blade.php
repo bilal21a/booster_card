@@ -26,46 +26,46 @@
                </div>
                <ul class="main-menu">
                    <!-- Start::slide__category -->
-                   <li class="slide__category"><span class="category-name">Main</span></li>
+                   <li class="slide__category"><span class="category-name color_white">Main</span></li>
                    <!-- End::slide__category -->
 
                    <!-- Start::slide -->
                    <li class="slide">
                        {{-- <a href="#" --}}
                        <a href="{{ route('dashboard') }}"
-                           class="side-menu__item {{ request()->is('admin/dashboard') && request()->query('type') == null ? 'active' : '' }}">
-                           <i class="bx bxs-dashboard side-menu__icon"></i>
-                           <span class="side-menu__label">Dashboard</span>
+                           class="text-white side-menu__item {{ request()->is('admin/dashboard') && request()->query('type') == null ? 'active' : '' }}">
+                           <i class="bx bxs-dashboard side-menu__icon color_white"></i>
+                           <span class="side-menu__label color_white">Dashboard</span>
                        </a>
                    </li>
-                    <li class="slide__category"><span class="category-name">Source</span></li>
+                    <li class="slide__category"><span class="category-name color_white">Source</span></li>
                     <li class="slide">
                         <a href="{{ route('show_users',['type'=>'udt']) }}"
                             class="side-menu__item {{ request()->is('admin/show_users') && request()->query('type') === 'udt' ? 'active' : '' }}">
-                            <i class="bx bxs-user side-menu__icon"></i>
-                            <span class="side-menu__label">Utd Users</span>
+                            <i class="bx bxs-user side-menu__icon color_white"></i>
+                            <span class="side-menu__label color_white">Utd Users</span>
                         </a>
                     </li>
                     <li class="slide">
                         <a href="{{ route('show_users',['type'=>'booster_card']) }}"
                             class="side-menu__item {{ request()->is('admin/show_users') && request()->query('type') === 'booster_card' ? 'active' : '' }}">
-                            <i class="bx bxs-user side-menu__icon"></i>
-                            <span class="side-menu__label">Booster Card Users</span>
+                            <i class="bx bxs-user side-menu__icon color_white"></i>
+                            <span class="side-menu__label color_white">Booster Card Users</span>
                         </a>
                     </li>
                     <li class="slide">
                         <a href="{{ route('show_users',['type'=>'green_gen']) }}"
                             class="side-menu__item {{ request()->is('admin/show_users') && request()->query('type') === 'green_gen' ? 'active' : '' }} ">
-                            <i class="bx bxs-user side-menu__icon"></i>
-                            <span class="side-menu__label">Green Gen Users</span>
+                            <i class="bx bxs-user side-menu__icon color_white"></i>
+                            <span class="side-menu__label color_white">Green Gen Users</span>
                         </a>
                     </li>
                     <!-- End::slide -->
-                    <li class="slide__category"><span class="category-name">Logout</span></li>
+                    <li class="slide__category"><span class="category-name color_white">Logout</span></li>
                     <li class="slide">
                         <a href="{{ route('logout') }}" class="side-menu__item ">
-                            <i class="bx bxs-exit side-menu__icon"></i>
-                            <span class="side-menu__label">logout</span>
+                            <i class="bx bxs-exit side-menu__icon color_white"></i>
+                            <span class="side-menu__label color_white">logout</span>
                         </a>
                     </li>
 

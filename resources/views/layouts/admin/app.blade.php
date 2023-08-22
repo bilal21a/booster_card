@@ -59,6 +59,10 @@
         .list_styling {
             list-style: none
         }
+        .color_white{
+            color: white !important;
+
+        }
     </style>
 </head>
 
