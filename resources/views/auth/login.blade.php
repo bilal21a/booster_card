@@ -95,7 +95,7 @@
                 </div>
 
                 <div class="">
-                    <p class="text-center text-gray-600">Or log in with:</p>
+                    <p class="text-center text-gray-600">or Login/Signup with:</p>
                     <div class="flex justify-center mt-2">
                         <a href="#" class="bg_brown text-white font-bold  px-4 rounded mx-2"
                             style="padding-top: 8px;">
