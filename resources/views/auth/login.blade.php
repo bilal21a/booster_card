@@ -50,7 +50,7 @@
                             <input type="submit" value="Login" class="my_login_signup">
                         </div>
                         <div class="signup-link">
-                            Not a member? <a href="">Signup now</a>
+                            Not a member? <a href="" class="orange_theme_color">Signup now</a>
                         </div>
                     </form>
                     <form method="POST" action="{{ route('register') }}" class="signup">
