@@ -92,19 +92,7 @@
                                                             style="color: {{ request()->routeIs('faqs') ? '#707070' : '#121212' }};">FAQs</a>
                                                 </ul>
                                             </li>
-                                            {{-- <li style="display: flex">
-                                                <a href="#" class="bg_orange  text-white font-bold py-2 px-4 rounded mx-2">
-                                                    <img width="30px" src="{{ asset('imgs/booster_white_small_logo.png') }}" alt=""
-                                                        srcset=""></a>
-                                                </a>
-                                                <a href="#" class="bg_brown text-white font-bold py-2  px-4 rounded mx-2"
-                                                    style="">
-                                                    <img width="30px" src="{{ asset('imgs/udt_logo_small.png') }}" alt=""></a>
-                                                <a href="#" class="bg_green  text-white font-bold py-2 px-4 rounded mx-2">
-                                                    <img width="30px" src="{{ asset('imgs/green_gen_small.png') }}" alt=""
-                                                        srcset=""></a>
-                                                </a>
-                                            </li> --}}
+
                                         </ul>
 
                                         <div class="elementskit-nav-identity-panel">
@@ -131,42 +119,77 @@
 
                 <div class="elementor-column elementor-col-33 elementor-top-column elementor-element-a498075 elementor-hidden-mobile"
                     data-id="a498075" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
 
-                        <div class="elementor-element elementor-element-c5195d1 elementor-align-right elementor-invisible elementor-widget elementor-widget-button"
-                            data-id="c5195d1" data-element_type="widget"
-                            data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}"
-                            data-widget_type="button.default">
+                    @guest
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-c5195d1 elementor-align-right elementor-invisible elementor-widget elementor-widget-button"
+                                data-id="c5195d1" data-element_type="widget"
+                                data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}"
+                                data-widget_type="button.default">
 
-                            <div class="elementor-widget-container">
-                                <ul style="display: flex">
-                                    <li class="login_signup_text">Login/Signup </li>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <li style="display: flex">
-                                        <a href="#" class="font-bold py-2 rounded mx-2 border_black" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Booster Card"
-                                            style="padding-top: 13px !important;width: 4rem;text-align: -webkit-center;">
-                                            <img width="30px" src="{{ asset('custom/booster_black.png') }}"></a>
-                                        <a href="#" class="font-bold py-2 rounded mx-2 border_brown"
-                                            style="padding-top: 12px;width: 4rem;text-align: -webkit-center;" data-bs-toggle="tooltip" data-bs-placement="bottom" title="United Drivers Trust">
-                                            <img width="30px" src="{{ asset('custom/udt_brown.png') }}"></a>
-                                        <a href="#" class="font-bold py-2 px-3 rounded mx-2 border_green" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Green Gen">
-                                            <img width="30px"
-                                                src="{{ asset('custom/green_gen_small_green.png') }}"></a>
-                                        </a>
-                                    </li>
-                                </ul>
-                                {{-- <div class="elementor-button-wrapper">
-
-                              
-                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="{{ route('login') }}">
-                                        <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Login</span>
-                                        </span>
-                                    </a>
-                                </div> --}}
+                                <div class="elementor-widget-container">
+                                    <ul style="display: flex">
+                                        <li class="login_signup_text">Login/Signup </li>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <li style="display: flex">
+                                            <a href="{{ route('login') }}" class="font-bold py-2 rounded mx-2 border_black"
+                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Booster Card"
+                                                style="padding-top: 13px !important;width: 4rem;text-align: -webkit-center;">
+                                                <img width="30px" src="{{ asset('custom/booster_black.png') }}"></a>
+                                            <a href="#" class="font-bold py-2 rounded mx-2 border_brown"
+                                                style="padding-top: 12px;width: 4rem;text-align: -webkit-center;"
+                                                data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                title="United Drivers Trust">
+                                                <img width="30px" src="{{ asset('custom/udt_brown.png') }}"></a>
+                                            <a href="#" class="font-bold py-2 px-3 rounded mx-2 border_green"
+                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Green Gen">
+                                                <img width="30px"
+                                                    src="{{ asset('custom/green_gen_small_green.png') }}"></a>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    @else
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-ef277ff elementor-invisible elementor-widget elementor-widget-ekit-nav-menu"
+                                data-id="ef277ff" data-element_type="widget"
+                                data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}"
+                                data-widget_type="ekit-nav-menu.default">
+                                <div class="elementor-widget-container">
+                                    <div class="ekit-wid-con ekit_menu_responsive_mobile"
+                                        data-hamburger-icon="icon icon-menu-11" data-hamburger-icon-type="icon"
+                                        data-responsive-breakpoint="767"> <button
+                                            class="elementskit-menu-hamburger elementskit-menu-toggler" type="button"
+                                            aria-label="hamburger-icon">
+                                            <i aria-hidden="true" class="ekit-menu-icon fas fa-bars"></i>
+                                        </button>
+                                        <div id="ekit-megamenu-menu"
+                                            class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default elementskit_fill_arrow ekit-nav-menu-one-page- ekit-nav-dropdown-hover">
+                                            <ul id="menu-menu"
+                                                class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon">
+                                                <li id="menu-item-48"
+                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content"
+                                                    data-vertical-menu=750px><a href="#"
+                                                        class="ekit-menu-nav-link ekit-menu-dropdown-toggle">{{ auth()->user()->name }}
+                                                        <i class="fas fa-angle-down"></i></a>
+                                                    <ul class="elementskit-dropdown elementskit-submenu-panel">
+                                                        <li id="menu-item-46"
+                                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46 nav-item elementskit-mobile-builder-content"
+                                                            data-vertical-menu=750px><a href="{{ route('logout') }}"
+                                                                class=" dropdown-item">Logout</a>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    @endguest
+
+
+
                 </div>
             </div>
         </section>
