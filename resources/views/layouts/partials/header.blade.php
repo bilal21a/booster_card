@@ -129,7 +129,7 @@
                     </div>
                 </div>
 
-                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a498075 elementor-hidden-mobile"
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element-a498075 elementor-hidden-mobile"
                     data-id="a498075" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
 
@@ -139,19 +139,21 @@
                             data-widget_type="button.default">
 
                             <div class="elementor-widget-container">
-                                <div class="login_signup_text">Login/Signup</div>
-                                <li style="display: flex">
-                                    <a href="#" class="font-bold py-2 rounded mx-2 border_black"
-                                        style="padding-top: 15px;width: 4rem;text-align: -webkit-center;">
-                                        <img width="30px" src="{{ asset('custom/booster_black.png') }}"></a>
-                                    <a href="#" class="font-bold py-2 rounded mx-2 border_brown"
-                                        style="padding-top: 12px;width: 4rem;text-align: -webkit-center;">
-                                        <img width="30px" src="{{ asset('custom/udt_brown.png') }}"></a>
-                                    <a href="#" class="font-bold py-2 px-4 rounded mx-2 border_green">
-                                        <img width="30px"
-                                            src="{{ asset('custom/green_gen_small_green.png') }}"></a>
-                                    </a>
-                                </li>
+                                <ul style="display: flex">
+                                    <li class="login_signup_text">Login/Signup </li>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <li style="display: flex">
+                                        <a href="#" class="font-bold py-2 rounded mx-2 border_black" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Booster Card"
+                                            style="padding-top: 13px !important;width: 4rem;text-align: -webkit-center;">
+                                            <img width="30px" src="{{ asset('custom/booster_black.png') }}"></a>
+                                        <a href="#" class="font-bold py-2 rounded mx-2 border_brown"
+                                            style="padding-top: 12px;width: 4rem;text-align: -webkit-center;" data-bs-toggle="tooltip" data-bs-placement="bottom" title="United Drivers Trust">
+                                            <img width="30px" src="{{ asset('custom/udt_brown.png') }}"></a>
+                                        <a href="#" class="font-bold py-2 px-3 rounded mx-2 border_green" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Green Gen">
+                                            <img width="30px"
+                                                src="{{ asset('custom/green_gen_small_green.png') }}"></a>
+                                        </a>
+                                    </li>
+                                </ul>
                                 {{-- <div class="elementor-button-wrapper">
 
                               
