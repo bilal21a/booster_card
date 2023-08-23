@@ -67,7 +67,8 @@
                                             <div class="d-flex align-items-center justify-content-between mt-1">
                                                 <div>
                                                     <a class="text-secondary"
-                                                        href="{{ route('show_users', ['type' => 'booster_card']) }}">View All<i
+                                                        href="{{ route('show_users', ['type' => 'booster_card']) }}">View
+                                                        All<i
                                                             class="ti ti-arrow-narrow-right ms-2 fw-semibold d-inline-block"></i></a>
                                                 </div>
                                                 <div class="text-end">
@@ -144,23 +145,23 @@
                                                 <tr>
                                                     <td></span>{{ $user->name }}</td>
                                                     <td>{{ $user->email }}</td>
-                                                    <td> @if ($user->src == 'udt')
-                                                              <span class="badge rounded-pill color_udt px-4">{{ $user->src }}</span>  
-                                                    @endif 
-                                                    @if ($user->src == 'green_gen')
-                                                    <span class="badge rounded-pill color_greengen px-4">{{str_replace('_', ' ', $user->src);}}</span>  
-                                                    @endif
-                                                    @if ($user->src == 'booster_card')
-                                                    <span class="badge rounded-pill bg-black px-4">{{str_replace('_', ' ', $user->src);}}</span>  
-                                                    @endif
-                                                    </td>
-                                                    {{-- <td>{{ $user->created_at->diffForHumans() }}</td>
                                                     <td>
-                                                        {{ $user->address }}
-                                                    </td> --}}
+                                                        @if ($user->src == 'udt')
+                                                            <span
+                                                                class="badge rounded-pill color_udt px-4">UDT</span>
+                                                        @endif
+                                                        @if ($user->src == 'green_gen')
+                                                            <span
+                                                                class="badge rounded-pill color_greengen px-4">Green Gen</span>
+                                                        @endif
+                                                        @if ($user->src == 'booster_card')
+                                                            <span
+                                                                class="badge rounded-pill bg-black px-4">Booster Card</span>
+                                                        @endif
+                                                    </td>
                                                 </tr>
                                             @endforeach
-    
+
                                         </tbody>
                                     </table>
                                 </div>
@@ -212,7 +213,7 @@
             .catch(error => {
                 console.error(error);
             });
-            axios.get("{{ route('show_logs') }}")
+        axios.get("{{ route('show_logs') }}")
             .then(response => {
                 $('.logsData').html(response.data)
             })
