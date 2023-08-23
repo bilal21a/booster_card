@@ -40,7 +40,8 @@ class HomeController extends Controller
         }
         $token = $request->token;
         $src = $request->src;
-        $response = Http::withToken($token)->get('http://127.0.0.1:8000/api/me');
+        $udt_backend_base_url = config('links.udt_backend');
+        $response = Http::withToken($token)->get($udt_backend_base_url . '//api/me');
         $jsonData = $response->json();
         if (isset($jsonData['error']) && $jsonData['error'] == 'Unauthenticated.') {
             return redirect()->route('login');
@@ -58,10 +59,11 @@ class HomeController extends Controller
         } else {
             $user = $existing_user;
         }
+        Auth::logout();
         Auth::login($user);
-        
-        $message="new Customer <span class='text-danger fw-semibold'>".$user->name."</span> added";
-        generate_activity('users', $message, $user->id, $type = 'add');
+
+        $message = "new Customer <span class='text-danger fw-semibold'>" . $user->name . "</span> loged in successfully";
+        generate_activity('users', $message, $user->id, 'add');
         return redirect()->route('pricing');
     }
 }
