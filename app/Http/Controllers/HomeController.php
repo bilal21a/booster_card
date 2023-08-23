@@ -43,7 +43,6 @@ class HomeController extends Controller
         $udt_backend_base_url = config('links.udt_backend');
         $response = Http::withToken($token)->get($udt_backend_base_url . '/api/me');
         $jsonData = $response->json();
-        dd($jsonData);
         if (isset($jsonData['error']) && $jsonData['error'] == 'Unauthenticated.') {
             return redirect()->route('login');
         }
