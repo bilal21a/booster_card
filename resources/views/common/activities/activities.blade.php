@@ -1,6 +1,7 @@
 <div>
     <ul class="list-unstyled mb-0 crm-recent-activity">
         @foreach ($activities as $activity)
+        {{-- @dd({!! $activity->message !!}) --}}
             <li class="crm-recent-activity-content">
                 <div class="d-flex align-items-top">
                     <div class="me-3">

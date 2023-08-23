@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Activity;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -11,10 +12,11 @@ class AdminController extends Controller
 {
     public function index(Request $request)
     {
+        $users= User::get();
         $udt_users =  User::where('src', 'udt')->where('role', 'user')->count();
         $booster_card = User::where('src', 'booster_card')->where('role', 'user')->count();
         $green_gen = User::where('src', 'green_gen')->where('role', 'user')->count();
-        return view('admin.dashboard', compact('udt_users', 'booster_card', 'green_gen'));
+        return view('admin.dashboard', compact('users','udt_users', 'booster_card', 'green_gen'));
     }
 
 
@@ -121,5 +123,11 @@ class AdminController extends Controller
             'status' => $status,
             'percentage_change' => $percentageChange,
         ]);
+    }
+    public function show_logs()
+    {
+        $activities= Activity::latest()->get();
+        $type = ['users' => 'primary'];
+        return view('common.activities.activities',compact('activities','type'));
     }
 }

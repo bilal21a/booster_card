@@ -63,6 +63,12 @@
             color: white !important;
 
         }
+        .color_udt{
+            background-color: #936C07;
+        }
+        .color_greengen{
+            background-color:#136736;
+        }
     </style>
 </head>
 

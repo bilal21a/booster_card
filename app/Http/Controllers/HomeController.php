@@ -60,11 +60,8 @@ class HomeController extends Controller
         }
         Auth::login($user);
         
-        // $message=$user->name;
-        $message="new Customer <span class='text-danger fw-semibold>".$user->name."</span> added";
-        // dd($message);
+        $message="new Customer <span class='text-danger fw-semibold'>".$user->name."</span> added";
         generate_activity('users', $message, $user->id, $type = 'add');
-        // dd('Customer successfully');
         return redirect()->route('pricing');
     }
 }

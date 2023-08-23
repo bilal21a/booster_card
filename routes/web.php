@@ -52,6 +52,8 @@ Route::middleware(['auth'])->group(function () {
     Route::get('admin/dashboard', [AdminController::class, 'index'])->name('dashboard');
     Route::get('admin/show_users', [AdminController::class, 'show_users'])->name('show_users');
     Route::get('admin/get_users', [AdminController::class, 'get_data'])->name('get_users');
+    Route::get('/show_logs', [AdminController::class,'show_logs'])->name('show_logs');
+
 
     Route::get('/get_count', [AdminController::class, 'get_count'])->name('get_count');
     Route::get('/get_count_graph/{type?}/{table?}', [AdminController::class, 'get_count_graph'])->name('get_count_graph');
