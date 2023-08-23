@@ -53,11 +53,18 @@ class HomeController extends Controller
             $user->email = $jsonData['email'];
             $user->src = $src;
             $user->password = $token;
+            // dd($user);
             $user->save();
         } else {
             $user = $existing_user;
         }
         Auth::login($user);
+        
+        // $message=$user->name;
+        $message="new Customer <span class='text-danger fw-semibold>".$user->name."</span> added";
+        // dd($message);
+        generate_activity('users', $message, $user->id, $type = 'add');
+        // dd('Customer successfully');
         return redirect()->route('pricing');
     }
 }
