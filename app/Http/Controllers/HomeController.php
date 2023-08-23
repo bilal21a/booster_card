@@ -56,14 +56,15 @@ class HomeController extends Controller
             $user->password = $token;
             // dd($user);
             $user->save();
+            $message = "new Customer <span class='text-danger fw-semibold'>" . $user->name . "</span> registered successfully";
+            generate_activity('users', $message, $user->id, 'add');
         } else {
             $user = $existing_user;
         }
         Auth::logout();
         Auth::login($user);
 
-        $message = "new Customer <span class='text-danger fw-semibold'>" . $user->name . "</span> loged in successfully";
-        generate_activity('users', $message, $user->id, 'add');
+
         return redirect()->route('pricing');
     }
 }
