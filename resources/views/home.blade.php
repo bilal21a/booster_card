@@ -904,7 +904,7 @@
                                                     src="{{ asset('imgs/kala_banda.png') }}"
                                                     class="attachment-full size-full wp-image-280" alt=""
                                                     loading="lazy"
-                                                    srcset="{{ asset('imgs/kala_banda.png') }} 1000w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/payfin-242x300.png 242w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/payfin-824x1024.png 824w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/payfin-768x954.png 768w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/payfin-800x994.png 800w"
+                                                    srcset="{{ asset('imgs/kala_banda.png') }} 1000w, {{ asset('imgs/kala_banda.png') }} 242w,{{ asset('imgs/kala_banda.png') }} 824w, {{ asset('imgs/kala_banda.png') }} 768w,{{ asset('imgs/kala_banda.png') }} 800w"
                                                     sizes="(max-width: 1000px) 100vw, 1000px" />
                                             </div>
                                         </div>
