@@ -23,7 +23,7 @@
                                     <div
                                         class="ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-   ekit_heading_mobile-">
                                         <h1 class="ekit-heading--title elementskit-section-title ">Smart Solution for
-                                            <span><span>Financial</span></span> Needs
+                                            <span><span class="backgroung_img">Financial</span></span> Needs
                                         </h1>
                                     </div>
                                 </div>
@@ -62,8 +62,8 @@
                             data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="image.default">
                             <div class="elementor-widget-container">
                                 <img decoding="async" width="100" height="100"
-                                    src="https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/20.jpg"
-                                    class="attachment-full size-full wp-image-59" alt="" loading="lazy" />
+                                    src="{{ asset('imgs/black_1.jpg') }}"
+                                    class="attachment-full size-full wp-image-59" alt="" loading="lazy" style="margin-right: 6px;" />
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-04b560e elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-image"
@@ -72,8 +72,8 @@
                             data-widget_type="image.default">
                             <div class="elementor-widget-container">
                                 <img decoding="async" width="100" height="100"
-                                    src="https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/21.jpg"
-                                    class="attachment-full size-full wp-image-60" alt="" loading="lazy" />
+                                    src="{{ asset('imgs/black_2.jpg') }}"
+                                    class="attachment-full size-full wp-image-60" alt="" loading="lazy" style="margin-right: 6px;" />
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-a8ca31f elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-image"
@@ -82,7 +82,7 @@
                             data-widget_type="image.default">
                             <div class="elementor-widget-container">
                                 <img decoding="async" width="100" height="100"
-                                    src="https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/22.jpg"
+                                    src="{{ asset('imgs/black_3.jpg') }}"
                                     class="attachment-full size-full wp-image-61" alt="" loading="lazy" />
                             </div>
                         </div>
@@ -901,10 +901,10 @@
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <img decoding="async" width="1000" height="1242"
-                                                    src="https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/payfin.png"
+                                                    src="{{ asset('imgs/kala_banda.png') }}"
                                                     class="attachment-full size-full wp-image-280" alt=""
                                                     loading="lazy"
-                                                    srcset="https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/payfin.png 1000w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/payfin-242x300.png 242w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/payfin-824x1024.png 824w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/payfin-768x954.png 768w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/payfin-800x994.png 800w"
+                                                    srcset="{{ asset('imgs/kala_banda.png') }} 1000w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/payfin-242x300.png 242w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/payfin-824x1024.png 824w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/payfin-768x954.png 768w, https://web.sociolib.com/finext/wp-content/uploads/sites/12/2023/04/payfin-800x994.png 800w"
                                                     sizes="(max-width: 1000px) 100vw, 1000px" />
                                             </div>
                                         </div>

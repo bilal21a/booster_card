@@ -37,8 +37,11 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
     @yield('css')
     <style>
         .bg_green {
@@ -56,16 +59,20 @@
         .border_black {
             border: 1px solid black !important;
         }
+
         .border_brown {
             border: 1px solid #936C07 !important;
         }
+
         .border_green {
             border: 1px solid #136736 !important;
         }
 
-        .border_black:hover,.border_brown:hover,.border_green:hover {
+        .border_black:hover,
+        .border_brown:hover,
+        .border_green:hover {
             border-color: var(--e-global-color-primary);
-            transform: scale(1.1); 
+            transform: scale(1.1);
         }
 
         /* @media (min-width: 768px) {
@@ -73,11 +80,22 @@
                 width: 85% !important;
             }
         } */
-        .login_signup_text{
+        .login_signup_text {
             text-align: center;
-            color:black !important;
+            color: black !important;
             /* padding-bottom: 1px; */
             padding-top: 6px;
+        }
+
+        .backgroung_img {
+            background-image: url("imgs/Group 1000002283.png");
+            padding: 20px 80px 20px 20px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border-radius: 20px 20px 20px 20px;
+
+
         }
     </style>
 </head>
