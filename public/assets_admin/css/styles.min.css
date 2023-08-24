@@ -2,12 +2,12 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap);
 :root {
     --body-bg-rgb: 240, 241, 247;
-    --primary-rgb: 255, 128, 58;
+    --primary-rgb: 182, 118, 72;
     --secondary-rgb: 35, 183, 229;
     --warning-rgb: 245, 184, 73;
     --info-rgb: 73, 182, 245;
     --success-rgb: 38, 191, 148;
-    --danger-rgb: 230, 83, 60;
+    --danger-rgb: 182, 118, 72;
     --light-rgb: 243, 246, 248;
     --dark-rgb: 35, 35, 35;
     --orange-rgb: 255, 165, 5;
@@ -664,7 +664,7 @@
 }
 
 [data-menu-styles=dark][data-theme-mode=light] {
-    --menu-bg: #FF803A;
+    --menu-bg: #b67648;
     --menu-prime-color: #a3aed1
 }
 
