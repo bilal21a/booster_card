@@ -53,6 +53,10 @@ class RegisterController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'phone' => ['required'],
+            'address' => ['required'],
+            'industry' => ['required'],
+            'website' => ['required'],
         ]);
     }
 
@@ -68,6 +72,10 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            'phone' => $data['phone'],
+            'address' => $data['address'],
+            'industry' => $data['industry'],
+            'website' => $data['website'],
         ]);
         $message = "new Customer <span class='text-danger fw-semibold'>" . $user->name . "</span> registered successfully";
         generate_activity('users', $message, $user->id, 'add');

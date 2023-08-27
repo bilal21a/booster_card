@@ -204,3 +204,7 @@ form .btn:hover .btn-layer {
     font-weight: 500;
     cursor: pointer;
 }
+
+.mywrap {
+    transition: height 0.3s ease;
+}

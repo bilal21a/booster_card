@@ -6,7 +6,7 @@
 @endsection
 @section('content')
     <div class="outer_wrapper">
-        <div class="wrapper">
+        <div class="wrapper mywrap" style="height:36rem">
             <div class="title-text">
                 <div class="title login">
                     Login
@@ -52,11 +52,23 @@
                         <div class="signup-link">
                             Not a member? <a href="" class="orange_theme_color">Signup now</a>
                         </div>
+                        <div class="">
+                            <p class="text-center text-gray-600">or Login with:</p>
+                            <div class="flex justify-center mt-2">
+                                <a href="#" class="bg_brown text-white font-bold  px-4 rounded mx-2"
+                                    style="padding-top: 8px;">
+                                    <img width="40px" src="{{ asset('imgs/udt_logo_small.png') }}" alt=""></a>
+                                <a href="#" class="bg_green  text-white font-bold py-2 px-4 rounded mx-2">
+                                    <img width="30px" src="{{ asset('imgs/green_gen_small.png') }}" alt=""
+                                        srcset=""></a>
+                                </a>
+                            </div>
+                        </div>
                     </form>
                     <form method="POST" action="{{ route('register') }}" class="signup">
                         @csrf
                         <div class="field">
-                            <input type="text" placeholder="Name" required name="name">
+                            <input type="text" placeholder="Name" required name="name" >
                         </div>
                         @error('name')
                             <span style="color:red;font-size:small" role="">
@@ -67,7 +79,7 @@
                             <input type="text" placeholder="Phone" required name="phone">
                         </div>
                         @error('phone')
-                            <span style="color:red;font-size:small" role="">
+                            <span style="color:red;font-size:small" role="" >
                                 <strong>{{ $message }}</strong>
                             </span>
                         @enderror
@@ -88,28 +100,28 @@
                             </span>
                         @enderror
                         <div class="field">
-                            <select class="form-control height_select" name="industry" id="">
+                            <select class="form-control height_select" required name="industry" id="">
                                 <option value="" disabled selected>Select Industry</option>
-                                <option value="">1</option>
+                                <option value="1">1</option>
                                 <option value="">2</option>
                                 <option value="">3</option>
                                 <option value="">4</option>
                                 <option value="">5</option>
                             </select>
-                            </div>
-                            @error('industry')
-                                <span style="color:red;font-size:small" role="">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror
-                            <div class="field">
-                                <input type="text" placeholder="Website" required name="website">
-                            </div>
-                            @error('website')
-                                <span style="color:red;font-size:small" role="">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror   
+                        </div>
+                        @error('industry')
+                            <span style="color:red;font-size:small" role="">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                        <div class="field">
+                            <input type="text" placeholder="Website" required name="website">
+                        </div>
+                        @error('website')
+                            <span style="color:red;font-size:small" role="">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
                         <div class="field">
                             <input type="password" placeholder="Password" required name="password">
                         </div>
@@ -130,22 +142,22 @@
                             <div class="btn-layer"></div>
                             <input type="submit" value="Signup" class="my_login_signup">
                         </div>
+                        <div class="">
+                            <p class="text-center text-gray-600">or Signup with:</p>
+                            <div class="flex justify-center mt-2">
+                                <a href="#" class="bg_brown text-white font-bold  px-4 rounded mx-2"
+                                    style="padding-top: 8px;">
+                                    <img width="40px" src="{{ asset('imgs/udt_logo_small.png') }}" alt=""></a>
+                                <a href="#" class="bg_green  text-white font-bold py-2 px-4 rounded mx-2">
+                                    <img width="30px" src="{{ asset('imgs/green_gen_small.png') }}" alt=""
+                                        srcset=""></a>
+                                </a>
+                            </div>
+                        </div>
                     </form>
                 </div>
 
-                <div class="">
-                    <p class="text-center text-gray-600">or Login/Signup with:</p>
-                    <div class="flex justify-center mt-2">
-                        <a href="#" class="bg_brown text-white font-bold  px-4 rounded mx-2"
-                            style="padding-top: 8px;">
-                            <img width="40px" src="{{ asset('imgs/udt_logo_small.png') }}" alt=""></a>
-                        <a href="#"
-                            class="bg_green  text-white font-bold py-2 px-4 rounded mx-2">
-                            <img width="30px" src="{{ asset('imgs/green_gen_small.png') }}" alt=""
-                                srcset=""></a>
-                        </a>
-                    </div>
-                </div>
+       
 
             </div>
         </div>
@@ -156,13 +168,20 @@
         const loginBtn = document.querySelector("label.login");
         const signupBtn = document.querySelector("label.signup");
         const signupLink = document.querySelector("form .signup-link a");
+        const wrap = document.querySelector(".mywrap");
         signupBtn.onclick = (() => {
             loginForm.style.marginLeft = "-50%";
             loginText.style.marginLeft = "-50%";
+            wrap.style.height = "auto";
+            wrap.classList.add("expanded"); // Add the "expanded" class for animation
+
         });
         loginBtn.onclick = (() => {
             loginForm.style.marginLeft = "0%";
             loginText.style.marginLeft = "0%";
+            wrap.style.height = "36rem";
+            wrap.classList.remove("expanded"); // Remove the "expanded" class for animation
+
         });
         signupLink.onclick = (() => {
             signupBtn.click();
