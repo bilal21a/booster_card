@@ -30,7 +30,7 @@
                             data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
 
-                                <p>Welcome to Finext Bank, your gateway to hassle-free banking. Our advanced banking
+                                <p>Welcome to Bopster Card Bank, your gateway to hassle-free banking. Our advanced banking
                                     technology and tailored services will help you manage your finances with ease.</p>
                             </div>
                         </div>

@@ -64,13 +64,52 @@
                             </span>
                         @enderror
                         <div class="field">
-                            <input type="text" placeholder="Email Address" required name="email">
+                            <input type="text" placeholder="Phone" required name="phone">
+                        </div>
+                        @error('phone')
+                            <span style="color:red;font-size:small" role="">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                        <div class="field">
+                            <input type="email" placeholder="Email Address" required name="email">
                         </div>
                         @error('email')
                             <span style="color:red;font-size:small" role="">
                                 <strong>{{ $message }}</strong>
                             </span>
                         @enderror
+                        <div class="field">
+                            <input type="text" placeholder="Address" required name="address">
+                        </div>
+                        @error('address')
+                            <span style="color:red;font-size:small" role="">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                        <div class="field">
+                            <select class="form-control height_select" name="industry" id="">
+                                <option value="" disabled selected>Select Industry</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                            </select>
+                            </div>
+                            @error('industry')
+                                <span style="color:red;font-size:small" role="">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                            <div class="field">
+                                <input type="text" placeholder="Website" required name="website">
+                            </div>
+                            @error('website')
+                                <span style="color:red;font-size:small" role="">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror   
                         <div class="field">
                             <input type="password" placeholder="Password" required name="password">
                         </div>
