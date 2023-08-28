@@ -19,7 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('email')->nullable();
             $table->string('src')->default('booster_card');
             $table->timestamp('email_verified_at')->nullable();
-            $table->string('role')->nullable();
+            $table->string('role')->default('user')->nullable();
             $table->string('phone')->nullable();
             $table->string('address')->nullable();
             $table->string('industry')->nullable();
