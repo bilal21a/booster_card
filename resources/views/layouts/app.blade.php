@@ -97,8 +97,19 @@
 
 
         }
-        .height_select{
+
+        .height_select {
             height: 48px;
+            border-style: solid;
+            border-width: 1px 1px 1px 1px;
+            border-color: var(--e-global-color-d59e8a8);
+            border-radius: 0px 0px 0px 0px;
+        }
+
+
+        .height_select:focus {
+            border-color: var(--e-global-color-primary);
+            box-shadow:none !important;
         }
     </style>
 </head>

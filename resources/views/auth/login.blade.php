@@ -100,7 +100,7 @@
                             </span>
                         @enderror
                         <div class="field">
-                            <select class="form-control height_select" required name="industry" id="">
+                            <select class="form-control height_select" required name="industry">
                                 <option value="" disabled selected>Select Industry</option>
                                 <option value="technology">Technology</option>
                                 <option value="healthcare">Healthcare</option>
