@@ -68,7 +68,7 @@
                     <form method="POST" action="{{ route('register') }}" class="signup">
                         @csrf
                         <div class="field">
-                            <input type="text" placeholder="Name" required name="name" >
+                            <input type="text" placeholder="Name" required name="name">
                         </div>
                         @error('name')
                             <span style="color:red;font-size:small" role="">
@@ -79,7 +79,7 @@
                             <input type="text" placeholder="Phone" required name="phone">
                         </div>
                         @error('phone')
-                            <span style="color:red;font-size:small" role="" >
+                            <span style="color:red;font-size:small" role="">
                                 <strong>{{ $message }}</strong>
                             </span>
                         @enderror
@@ -102,11 +102,26 @@
                         <div class="field">
                             <select class="form-control height_select" required name="industry" id="">
                                 <option value="" disabled selected>Select Industry</option>
-                                <option value="1">1</option>
-                                <option value="">2</option>
-                                <option value="">3</option>
-                                <option value="">4</option>
-                                <option value="">5</option>
+                                <option value="technology">Technology</option>
+                                <option value="healthcare">Healthcare</option>
+                                <option value="finance">Finance</option>
+                                <option value="education">Education</option>
+                                <option value="manufacturing">Manufacturing</option>
+                                <option value="retail">Retail</option>
+                                <option value="entertainment">Entertainment</option>
+                                <option value="food">Food & Beverage</option>
+                                <option value="automotive">Automotive</option>
+                                <option value="energy">Energy</option>
+                                <option value="telecommunications">Telecommunications</option>
+                                <option value="media">Media</option>
+                                <option value="real-estate">Real Estate</option>
+                                <option value="travel">Travel & Hospitality</option>
+                                <option value="agriculture">Agriculture</option>
+                                <option value="environment">Environmental Services</option>
+                                <option value="fashion">Fashion & Apparel</option>
+                                <option value="gaming">Gaming</option>
+                                <option value="construction">Construction</option>
+                                <option value="pharmaceuticals">Pharmaceuticals</option>
                             </select>
                         </div>
                         @error('industry')
@@ -157,7 +172,7 @@
                     </form>
                 </div>
 
-       
+
 
             </div>
         </div>
