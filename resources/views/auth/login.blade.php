@@ -55,7 +55,7 @@
                         <div class="">
                             <p class="text-center text-gray-600">or Login with:</p>
                             <div class="flex justify-center mt-2">
-                                <a href="#" class="bg_brown text-white font-bold  px-4 rounded mx-2"
+                                <a href="https://udt-iota.vercel.app" class="bg_brown text-white font-bold  px-4 rounded mx-2"
                                     style="padding-top: 8px;">
                                     <img width="40px" src="{{ asset('imgs/udt_logo_small.png') }}" alt=""></a>
                                 <a href="#" class="bg_green  text-white font-bold py-2 px-4 rounded mx-2">
@@ -160,7 +160,7 @@
                         <div class="">
                             <p class="text-center text-gray-600">or Signup with:</p>
                             <div class="flex justify-center mt-2">
-                                <a href="#" class="bg_brown text-white font-bold  px-4 rounded mx-2"
+                                <a href="https://udt-iota.vercel.app" class="bg_brown text-white font-bold  px-4 rounded mx-2"
                                     style="padding-top: 8px;">
                                     <img width="40px" src="{{ asset('imgs/udt_logo_small.png') }}" alt=""></a>
                                 <a href="#" class="bg_green  text-white font-bold py-2 px-4 rounded mx-2">

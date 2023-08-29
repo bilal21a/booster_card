@@ -135,7 +135,7 @@
                                                 data-bs-toggle="tooltip" data-bs-placement="bottom" title="Booster Card"
                                                 style="padding-top: 13px !important;width: 4rem;text-align: -webkit-center;">
                                                 <img width="30px" src="{{ asset('custom/booster_black.png') }}"></a>
-                                            <a href="#" class="font-bold py-2 rounded mx-2 border_brown"
+                                            <a href="https://udt-iota.vercel.app" class="font-bold py-2 rounded mx-2 border_brown"
                                                 style="padding-top: 12px;width: 4rem;text-align: -webkit-center;"
                                                 data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                 title="United Drivers Trust">
