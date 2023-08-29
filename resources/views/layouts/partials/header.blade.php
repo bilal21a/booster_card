@@ -95,7 +95,7 @@
                                             <li id="menu-item-49 " style="display:none;color: var(--e-global-color-text );padding: 2px 0px 4px 20px;"
                                                 class="menu-item mobile_login_list menu-item-type-custom menu-item-object-custom menu-item-49 nav-item elementskit-mobile-builder-content"
                                                 data-vertical-menu=750px>
-                                                <div>Login/Signup </div>
+                                                <div style="padding-bottom:17px">Login/Signup </div>
                                                 <div style="display: flex">
                                                     <a href="{{ route('login') }}"
                                                         class="font-bold py-2 rounded border_black"
