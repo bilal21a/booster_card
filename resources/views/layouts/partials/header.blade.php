@@ -92,6 +92,34 @@
                                                             style="color: {{ request()->routeIs('faqs') ? '#707070' : '#121212' }};">FAQs</a>
                                                 </ul>
                                             </li>
+                                            <li id="menu-item-49 " style="display:none;color: var(--e-global-color-text );padding: 2px 0px 4px 20px;"
+                                                class="menu-item mobile_login_list menu-item-type-custom menu-item-object-custom menu-item-49 nav-item elementskit-mobile-builder-content"
+                                                data-vertical-menu=750px>
+                                                <div>Login/Signup </div>
+                                                <div style="display: flex">
+                                                    <a href="{{ route('login') }}"
+                                                        class="font-bold py-2 rounded border_black"
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Booster Card"
+                                                        style="padding-top: 13px !important;width: 4rem;text-align: -webkit-center;">
+                                                        <img width="30px"
+                                                            src="{{ asset('custom/booster_black.png') }}"></a>
+                                                    <a href="https://udt-iota.vercel.app"
+                                                        class="font-bold py-2 rounded mx-2 border_brown"
+                                                        style="padding-top: 12px !important;width: 4rem;text-align: -webkit-center;"
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="United Drivers Trust">
+                                                        <img width="30px"
+                                                            src="{{ asset('custom/udt_brown.png') }}"></a>
+                                                    <a href="#"
+                                                        class="font-bold py-2 px-3 rounded mx-2 border_green"
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Green Gen">
+                                                        <img width="30px"
+                                                            src="{{ asset('custom/green_gen_small_green.png') }}"></a>
+                                                    </a>
+                                                </div>
+                                            </li>
 
                                         </ul>
 
@@ -131,11 +159,13 @@
                                     <ul style="display: flex">
                                         <li class="login_signup_text">Login/Signup </li>&nbsp;&nbsp;&nbsp;&nbsp;
                                         <li style="display: flex">
-                                            <a href="{{ route('login') }}" class="font-bold py-2 rounded mx-2 border_black"
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Booster Card"
+                                            <a href="{{ route('login') }}"
+                                                class="font-bold py-2 rounded mx-2 border_black" data-bs-toggle="tooltip"
+                                                data-bs-placement="bottom" title="Booster Card"
                                                 style="padding-top: 13px !important;width: 4rem;text-align: -webkit-center;">
                                                 <img width="30px" src="{{ asset('custom/booster_black.png') }}"></a>
-                                            <a href="https://udt-iota.vercel.app" class="font-bold py-2 rounded mx-2 border_brown"
+                                            <a href="https://udt-iota.vercel.app"
+                                                class="font-bold py-2 rounded mx-2 border_brown"
                                                 style="padding-top: 12px;width: 4rem;text-align: -webkit-center;"
                                                 data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                 title="United Drivers Trust">

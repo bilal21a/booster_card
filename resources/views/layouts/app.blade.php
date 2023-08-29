@@ -75,11 +75,11 @@
             transform: scale(1.1);
         }
 
-        /* @media (min-width: 768px) {
-            .header-custom-width{
-                width: 85% !important;
+        @media (max-width: 767px) {
+            .mobile_login_list{
+                display: block !important;
             }
-        } */
+        }
         .login_signup_text {
             text-align: center;
             color: black !important;
