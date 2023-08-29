@@ -112,7 +112,7 @@
                                                         <img width="30px"
                                                             src="{{ asset('custom/udt_brown.png') }}"></a>
                                                     <a href="#"
-                                                        class="font-bold py-2 px-3 rounded mx-2 border_green"
+                                                        class="font-bold py-2 px-3 rounded border_green"
                                                         data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                         title="Green Gen">
                                                         <img width="30px"
