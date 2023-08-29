@@ -92,7 +92,7 @@
                                                             style="color: {{ request()->routeIs('faqs') ? '#707070' : '#121212' }};">FAQs</a>
                                                 </ul>
                                             </li>
-                                            <li id="menu-item-49 " style="display:none;color: var(--e-global-color-text );padding: 2px 0px 4px 20px;"
+                                            <li id="menu-item-49 elementor-7 " style="display:none;color: var(--e-global-color-text );padding: 2px 0px 4px 20px;"
                                                 class="menu-item mobile_login_list menu-item-type-custom menu-item-object-custom menu-item-49 nav-item elementskit-mobile-builder-content"
                                                 data-vertical-menu=750px>
                                                 <div style="padding-bottom:17px">Login/Signup </div>
