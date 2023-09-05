@@ -101,9 +101,9 @@
                                                         class="font-bold py-2 rounded border_black"
                                                         data-bs-toggle="tooltip" data-bs-placement="bottom"
                                                         title="Booster Card"
-                                                        style="padding-top: 13px !important;width: 4rem;text-align: -webkit-center;">
-                                                        <img width="30px"
-                                                            src="{{ asset('custom/booster_black.png') }}"></a>
+                                                        style="padding-top: 9px !important;width: 4rem;text-align: -webkit-center;">
+                                                        <img width="30px" src="{{ asset('imgs/ceeclogo.png') }}"></a>
+                                                    </a>
                                                     <a href="https://udt-iota.vercel.app"
                                                         class="font-bold py-2 rounded mx-2 border_brown"
                                                         style="padding-top: 12px !important;width: 4rem;text-align: -webkit-center;"
@@ -161,9 +161,9 @@
                                         <li style="display: flex">
                                             <a href="{{ route('login') }}"
                                                 class="font-bold py-2 rounded mx-2 border_black" data-bs-toggle="tooltip"
-                                                data-bs-placement="bottom" title="Booster Card"
-                                                style="padding-top: 13px !important;width: 4rem;text-align: -webkit-center;">
-                                                <img width="30px" src="{{ asset('custom/booster_black.png') }}"></a>
+                                                data-bs-placement="bottom" title="Citizens Economics"
+                                                style="padding-top: 5px !important;width: 4rem;text-align: -webkit-center;">
+                                                <img width="30px" src="{{ asset('imgs/ceeclogo.png') }}"></a>
                                             <a href="https://udt-iota.vercel.app"
                                                 class="font-bold py-2 rounded mx-2 border_brown"
                                                 style="padding-top: 12px;width: 4rem;text-align: -webkit-center;"
