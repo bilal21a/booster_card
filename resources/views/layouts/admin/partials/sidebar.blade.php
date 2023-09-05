@@ -43,7 +43,7 @@
                         <a href="{{ route('show_users',['type'=>'udt']) }}"
                             class="side-menu__item {{ request()->is('admin/show_users') && request()->query('type') === 'udt' ? 'active' : '' }}">
                             <i class="bx bxs-user side-menu__icon color_white"></i>
-                            <span class="side-menu__label color_white">Utd Users</span>
+                            <span class="side-menu__label color_white">UDT Users</span>
                         </a>
                     </li>
                     <li class="slide">
