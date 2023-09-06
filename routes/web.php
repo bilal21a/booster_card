@@ -44,7 +44,7 @@ Route::middleware(['auth'])->group(function () {
         Auth::logout();
         return redirect()->route('login');
     })->name('logout');
-    Route::middleware(['role'])->group(function () {
+    Route::middleware(['role', 'verified'])->group(function () {
         Route::get('pricing', function () {
             return view('pricing');
         })->name('pricing');

@@ -45,10 +45,16 @@
                         {{-- <div class="pass-link">
                             <a href="#">Forgot password?</a>
                         </div> --}}
+
                         <div class="field btn">
                             <div class="btn-layer"></div>
                             <input type="submit" value="Login" class="my_login_signup">
                         </div>
+                        @error('verified')
+                            <span style="color:red;font-size:small" role="">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
                         <div class="signup-link">
                             Not a member? <a href="" class="orange_theme_color">Signup now</a>
                         </div>
